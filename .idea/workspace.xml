@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c77b74f2-1adc-4bcb-90b9-0ed34c0eb70e" name="Default" comment="" />
+    <ignored path="antrasoft-cms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="antrasoft-cms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="55" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5525">
+              <folding>
+                <marker date="1439480448052" expanded="true" signature="102:2549" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="181:478" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="242:467" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="557:890" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="618:879" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="969:1304" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="1030:1293" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="1383:1713" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="1444:1702" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="1792:2127" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="1853:2116" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2206:2541" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2267:2530" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2588:5767" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2636:5759" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2674:5748" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2713:3295" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2752:2860" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2899:3276" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="2969:3045" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3046:3253" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3350:3653" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3399:3427" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3489:3501" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3502:3634" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3578:3604" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3716:5691" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3754:3880" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3940:4778" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="3966:4348" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4054:4321" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4125:4136" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4137:4290" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4374:4755" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4461:4728" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4532:4543" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4544:4697" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4837:5671" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4863:5246" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="4952:5219" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5023:5034" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5035:5188" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5272:5648" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5354:5621" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5425:5436" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5437:5590" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5793:15571" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5835:10508" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5861:10501" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="5891:6747" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6010:6691" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6031:6114" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6152:6577" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6359:6555" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6388:6444" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6473:6529" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6598:6673" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6779:10490" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6830:10475" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6890:10456" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6915:7776" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="6959:7750" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7015:7719" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7066:7201" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7254:7376" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7428:7684" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7801:8662" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7845:8636" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7901:8605" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="7952:8087" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="8140:8262" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="8314:8570" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="8687:9548" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="8731:9522" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="8787:9491" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="8838:8973" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9026:9148" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9200:9456" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9573:10434" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9617:10408" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9673:10377" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9724:9859" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="9912:10034" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10086:10342" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10554:15563" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10584:15552" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10618:11546" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10745:11482" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10770:10857" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="10899:11356" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11114:11330" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11147:11207" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11240:11300" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11381:11460" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11582:15537" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11637:15518" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11701:15495" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11730:12643" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11778:12613" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11838:12578" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="11893:12036" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="12093:12223" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="12279:12539" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="12672:13585" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="12720:13555" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="12780:13520" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="12835:12978" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13035:13165" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13221:13481" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13614:14527" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13662:14497" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13722:14462" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13777:13920" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="13977:14107" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="14163:14423" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="14556:15469" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="14604:15439" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="14664:15404" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="14719:14862" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="14919:15049" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="15105:15365" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="15606:15808" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="15625:15765" placeholder="..." />
+                <marker date="1439480448052" expanded="true" signature="15656:15754" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="116" selection-start="3462" selection-end="3462" vertical-scroll-proportion="-3.5769231" vertical-offset="825" max-vertical-offset="1309">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrivilegeTableSeeder.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/PrivilegeTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.519084" vertical-offset="0" max-vertical-offset="765">
+              <folding>
+                <element signature="e#7#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="33" selection-start="960" selection-end="960" vertical-scroll-proportion="-12.692307" vertical-offset="95" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="7" selection-start="126" selection-end="126" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="476">
+              <folding>
+                <element signature="e#7#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/config/view.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/config/auth.php" />
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/Admin.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/admin_template.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/antrasoft/models/User.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/models/Accountype.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_08_13_211215_create_accounttype_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/accountTypeSeeder.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/models/Privilege.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Privilege.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_08_13_211215_create_Privileges_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PrivilegeTableSeeder.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft-cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antrasoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\antrasoft-cms\app\antrasoft\views\admin" />
+      <recent name="C:\wamp\www\antrasoft-cms\public\res\bknd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\antrasoft-cms\app\antrasoft\views\admin" />
+      <recent name="C:\wamp\www\antrasoft-cms\app\antrasoft\models" />
+      <recent name="C:\wamp\www\antrasoft-cms\app\antrasoft\views" />
+      <recent name="C:\wamp\www\antrasoft-cms\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c77b74f2-1adc-4bcb-90b9-0ed34c0eb70e" name="Default" comment="" />
+      <created>1439472139531</created>
+      <updated>1439472139531</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752443" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28851965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.74188036" vertical-offset="280" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.9615383" vertical-offset="129" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="35.846153" vertical-offset="932" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="46" selection-start="609" selection-end="609" vertical-scroll-proportion="0.52307695" vertical-offset="0" max-vertical-offset="2703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="545" selection-end="545" vertical-scroll-proportion="0.27045456" vertical-offset="0" max-vertical-offset="440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.3" vertical-offset="395" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/broadcasting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="548" selection-end="548" vertical-scroll-proportion="0.6722689" vertical-offset="66" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5070028" vertical-offset="538" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="51" selection-start="518" selection-end="518" vertical-scroll-proportion="-0.0952381" vertical-offset="306" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="469" selection-end="469" vertical-scroll-proportion="0.56739813" vertical-offset="108" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="31" selection-start="4037" selection-end="4037" vertical-scroll-proportion="2.2935944" vertical-offset="734" max-vertical-offset="2244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="140" selection-end="140" vertical-scroll-proportion="0.20238096" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="7" selection-start="775" selection-end="775" vertical-scroll-proportion="0.6352313" vertical-offset="0" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="268" selection-end="268" vertical-scroll-proportion="0.24199288" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/admin_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="39" selection-start="2353" selection-end="2353" vertical-scroll-proportion="5.3846154" vertical-offset="1436" max-vertical-offset="10013">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="491" selection-end="491" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="55" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5525">
+          <folding>
+            <marker date="1439480448052" expanded="true" signature="102:2549" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="181:478" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="242:467" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="557:890" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="618:879" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="969:1304" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="1030:1293" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="1383:1713" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="1444:1702" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="1792:2127" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="1853:2116" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2206:2541" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2267:2530" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2588:5767" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2636:5759" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2674:5748" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2713:3295" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2752:2860" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2899:3276" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="2969:3045" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3046:3253" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3350:3653" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3399:3427" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3489:3501" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3502:3634" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3578:3604" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3716:5691" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3754:3880" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3940:4778" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="3966:4348" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4054:4321" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4125:4136" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4137:4290" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4374:4755" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4461:4728" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4532:4543" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4544:4697" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4837:5671" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4863:5246" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="4952:5219" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5023:5034" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5035:5188" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5272:5648" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5354:5621" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5425:5436" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5437:5590" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5793:15571" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5835:10508" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5861:10501" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="5891:6747" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6010:6691" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6031:6114" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6152:6577" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6359:6555" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6388:6444" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6473:6529" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6598:6673" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6779:10490" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6830:10475" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6890:10456" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6915:7776" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="6959:7750" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7015:7719" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7066:7201" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7254:7376" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7428:7684" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7801:8662" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7845:8636" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7901:8605" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="7952:8087" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="8140:8262" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="8314:8570" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="8687:9548" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="8731:9522" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="8787:9491" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="8838:8973" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9026:9148" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9200:9456" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9573:10434" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9617:10408" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9673:10377" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9724:9859" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="9912:10034" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10086:10342" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10554:15563" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10584:15552" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10618:11546" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10745:11482" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10770:10857" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="10899:11356" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11114:11330" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11147:11207" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11240:11300" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11381:11460" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11582:15537" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11637:15518" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11701:15495" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11730:12643" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11778:12613" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11838:12578" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="11893:12036" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="12093:12223" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="12279:12539" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="12672:13585" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="12720:13555" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="12780:13520" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="12835:12978" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13035:13165" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13221:13481" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13614:14527" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13662:14497" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13722:14462" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13777:13920" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="13977:14107" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="14163:14423" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="14556:15469" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="14604:15439" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="14664:15404" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="14719:14862" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="14919:15049" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="15105:15365" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="15606:15808" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="15625:15765" placeholder="..." />
+            <marker date="1439480448052" expanded="true" signature="15656:15754" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="37" selection-start="134" selection-end="134" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/compile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="931" selection-end="931" vertical-scroll-proportion="1.3579881" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="33" selection-start="1418" selection-end="1418" vertical-scroll-proportion="2.0621302" vertical-offset="0" max-vertical-offset="3451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="554" selection-end="563" vertical-scroll-proportion="-5.730769" vertical-offset="225" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="116" selection-end="116" vertical-scroll-proportion="0.24556214" vertical-offset="2" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="116" selection-start="3462" selection-end="3462" vertical-scroll-proportion="-3.5769231" vertical-offset="825" max-vertical-offset="1309">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#th#8;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/models/Privilege.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25265393" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="960" selection-end="960" vertical-scroll-proportion="-12.692307" vertical-offset="95" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="126" selection-end="126" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <element signature="e#7#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_08_13_211215_create_Privileges_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.1827957" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PrivilegeTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.519084" vertical-offset="0" max-vertical-offset="765">
+          <folding>
+            <element signature="e#7#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
