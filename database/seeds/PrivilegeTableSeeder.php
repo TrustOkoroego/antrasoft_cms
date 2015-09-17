@@ -18,8 +18,8 @@ class PrivilegeTableSeeder extends Seeder
         $actype->save();
 
         $actype = new Privilege();
-        $actype->pr_name='can_write_post';
-        $actype->pr_description ='Can write create a Post';
+        $actype->pr_name='can_approve_comment';
+        $actype->pr_description ='Can approve user comments';
         $actype->save();
 
         $actype = new Privilege();

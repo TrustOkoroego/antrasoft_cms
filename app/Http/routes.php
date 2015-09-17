@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('admin/login', 'Auth\AuthController@getLogin');
+Route::post('admin/login', 'Auth\AuthController@postLogin');
+Route::get('admin/logout', 'Auth\AuthController@getLogout');
 
 Route::controller('admin','admin\AdminController');

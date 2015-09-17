@@ -14,15 +14,17 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->string('username');
+            $table->string('firstname');
+            $table->string('lastname');
             $table->string('email')->unique();
             $table->string('password', 60);
-            $table->string('confirmation_token');
-            $table->integer('usertype'); // 1 for admin, 0 for site users
-            $table->string('privileges'); // empty for usertype = 0
-            $table->integer('subscribed'); // 1 for true , 0 for false
+            $table->string('confirmation_token',100);
+            $table->string('usertype'); // 1 for admin, 0 for site users
+            $table->string('privilege'); // empty for usertype = 0
+            $table->string('profile_image',300); // empty for usertype = 0
+            $table->integer('subscribed')->default(1); // 1subscribed to news letter
             $table->string('status',10); // user account status suspended/open/unconfirmed
-            $table->string('profile_image'); // user profile picture
             $table->rememberToken();
             $table->timestamps();
         });

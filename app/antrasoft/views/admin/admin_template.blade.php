@@ -24,12 +24,10 @@
     <link rel="stylesheet" type="text/css" href="{{$res_bknd}}/css/maps/jquery-jvectormap-2.0.1.css" />
     <link href="{{$res_bknd}}/css/icheck/flat/green.css" rel="stylesheet" />
     <link href="{{$res_bknd}}/css/floatexamples.css" rel="stylesheet" type="text/css" />
+    @yield('styles')
 
     <script src="{{$res_bknd}}/js/jquery.min.js"></script>
-    <script src="{{$res_bknd}}/js/nprogress.js"></script>
-    <script>
-        NProgress.start();
-    </script>
+
 
     <!--[if lt IE 9]>
     <script src="../assets/js/ie8-responsive-file-warning.js"></script>
@@ -79,9 +77,9 @@
             <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                    <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-users"></i> User Manager <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="index.blade.php">Dashboard</a>
+                            <li><a href="{{URL::to('/')}}/admin/users">Users</a>
                             </li>
                             <li><a href="index2.html">Dashboard2</a>
                             </li>
@@ -89,101 +87,69 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-edit"></i> Blog <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="form.html">General Form</a>
+                            <li><a href="form.html">New Blog Post</a>
                             </li>
-                            <li><a href="form_advanced.html">Advanced Components</a>
+                            <li><a href="form_advanced.html">Posts</a>
                             </li>
-                            <li><a href="form_validation.html">Form Validation</a>
+                            <li><a href="form_validation.html">Settings</a>
                             </li>
-                            <li><a href="form_wizards.html">Form Wizard</a>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-edit"></i> Gallery <span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" style="display: none">
+                            <li><a href="form.html">new Gallery</a>
+                            </li>
+                            <li><a href="form_advanced.html">Add Image</a>
+                            </li>
+                            <li><a href="form_validation.html">Manage Gallery</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-edit"></i> Forums <span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" style="display: none">
+                            <li><a href="form.html">New Post</a>
+                            </li>
+                            <li><a href="form_advanced.html">Topics</a>
+                            </li>
+                            <li><a href="form_validation.html">Comments</a>
+                            </li>
+                            <li><a href="form_wizards.html">Settings</a>
                             </li>
                             <li><a href="form_upload.html">Form Upload</a>
                             </li>
-                            <li><a href="form_buttons.html">Form Buttons</a>
-                            </li>
                         </ul>
                     </li>
-                    <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-desktop"></i> Slides <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="general_elements.html">General Elements</a>
+                            <li><a href="general_elements.html">Add new Slide</a>
                             </li>
-                            <li><a href="media_gallery.html">Media Gallery</a>
+                            <li><a href="media_gallery.html">Manage Slides</a>
                             </li>
                             <li><a href="typography.html">Typography</a>
                             </li>
-                            <li><a href="icons.html">Icons</a>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-desktop"></i> E-commerce <span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" style="display: none">
+                            <li><a href="general_elements.html">Sock</a>
                             </li>
-                            <li><a href="glyphicons.html">Glyphicons</a>
+                            <li><a href="media_gallery.html">Categories</a>
                             </li>
-                            <li><a href="widgets.html">Widgets</a>
-                            </li>
-                            <li><a href="invoice.html">Invoice</a>
-                            </li>
-                            <li><a href="inbox.html">Inbox</a>
-                            </li>
-                            <li><a href="calender.html">Calender</a>
+                            <li><a href="typography.html">Sub Categories</a>
                             </li>
                         </ul>
                     </li>
-                    <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-bar-chart-o"></i> Emailing <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="tables.html">Tables</a>
-                            </li>
-                            <li><a href="tables_dynamic.html">Table Dynamic</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu" style="display: none">
-                            <li><a href="chartjs.html">Chart JS</a>
+                            <li><a href="chartjs.html">Compose Bulk Email</a>
                             </li>
                             <li><a href="chartjs2.html">Chart JS2</a>
                             </li>
                             <li><a href="morisjs.html">Moris JS</a>
                             </li>
-                            <li><a href="echarts.html">ECharts </a>
-                            </li>
-                            <li><a href="other_charts.html">Other Charts </a>
-                            </li>
                         </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="menu_section">
-                <h3>Live On</h3>
-                <ul class="nav side-menu">
-                    <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu" style="display: none">
-                            <li><a href="e_commerce.html">E-commerce</a>
-                            </li>
-                            <li><a href="projects.html">Projects</a>
-                            </li>
-                            <li><a href="project_detail.html">Project Detail</a>
-                            </li>
-                            <li><a href="contacts.html">Contacts</a>
-                            </li>
-                            <li><a href="profile.html">Profile</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu" style="display: none">
-                            <li><a href="page_404.html">404 Error</a>
-                            </li>
-                            <li><a href="page_500.html">500 Error</a>
-                            </li>
-                            <li><a href="plain_page.html">Plain Page</a>
-                            </li>
-                            <li><a href="login.html">Login Page</a>
-                            </li>
-                            <li><a href="pricing_tables.html">Pricing Tables</a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li><a><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a>
                     </li>
                 </ul>
             </div>
@@ -226,11 +192,8 @@
                         <span class=" fa fa-angle-down"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
-                        <li><a href="javascript:;">  Profile</a>
-                        </li>
                         <li>
                             <a href="javascript:;">
-                                <span class="badge bg-red pull-right">50%</span>
                                 <span>Settings</span>
                             </a>
                         </li>
@@ -248,49 +211,7 @@
                         <span class="badge bg-green">6</span>
                     </a>
                     <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
-                        <li>
-                            <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                            </a>
-                        </li>
-                        <li>
+                       <li>
                             <a>
                                             <span class="image">
                                         <img src="images/img.jpg" alt="Profile Image" />
@@ -342,11 +263,7 @@
 
 <script src="{{$res_bknd}}/js/bootstrap.min.js"></script>
 
-<!-- gauge js -->
-<script type="text/javascript" src="{{$res_bknd}}/js/gauge/gauge.min.js"></script>
-<script type="text/javascript" src="{{$res_bknd}}/js/gauge/gauge_demo.js"></script>
-<!-- chart js -->
-<script src="{{$res_bknd}}/js/chartjs/chart.min.js"></script>
+
 <!-- bootstrap progress js -->
 <script src="{{$res_bknd}}/js/progressbar/bootstrap-progressbar.min.js"></script>
 <script src="{{$res_bknd}}/js/nicescroll/jquery.nicescroll.min.js"></script>
@@ -430,152 +347,7 @@
     });
 </script>
 
-<!-- worldmap -->
-<script type="text/javascript" src="{{$res_bknd}}/js/maps/jquery-jvectormap-2.0.1.min.js"></script>
-<script type="text/javascript" src="{{$res_bknd}}/js/maps/gdp-data.js"></script>
-<script type="text/javascript" src="{{$res_bknd}}/js/maps/jquery-jvectormap-world-mill-en.js"></script>
-<script type="text/javascript" src="{{$res_bknd}}/js/maps/jquery-jvectormap-us-aea-en.js"></script>
-<script>
-    $(function () {
-        $('#world-map-gdp').vectorMap({
-            map: 'world_mill_en',
-            backgroundColor: 'transparent',
-            zoomOnScroll: false,
-            series: {
-                regions: [{
-                    values: gdpData,
-                    scale: ['#E6F2F0', '#149B7E'],
-                    normalizeFunction: 'polynomial'
-                }]
-            },
-            onRegionTipShow: function (e, el, code) {
-                el.html(el.html() + ' (GDP - ' + gdpData[code] + ')');
-            }
-        });
-    });
-</script>
-<!-- skycons -->
-<script src="js/skycons/skycons.js"></script>
-<script>
-    var icons = new Skycons({
-            "color": "#73879C"
-        }),
-        list = [
-            "clear-day", "clear-night", "partly-cloudy-day",
-            "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-            "fog"
-        ],
-        i;
-
-    for (i = list.length; i--;)
-        icons.set(list[i], list[i]);
-
-    icons.play();
-</script>
-
-<!-- dashbord linegraph -->
-<script>
-    var doughnutData = [
-        {
-            value: 30,
-            color: "#455C73"
-        },
-        {
-            value: 30,
-            color: "#9B59B6"
-        },
-        {
-            value: 60,
-            color: "#BDC3C7"
-        },
-        {
-            value: 100,
-            color: "#26B99A"
-        },
-        {
-            value: 120,
-            color: "#3498DB"
-        }
-    ];
-    var myDoughnut = new Chart(document.getElementById("canvas1").getContext("2d")).Doughnut(doughnutData);
-</script>
-<!-- /dashbord linegraph -->
-<!-- datepicker -->
-<script type="text/javascript">
-    $(document).ready(function () {
-
-        var cb = function (start, end, label) {
-            console.log(start.toISOString(), end.toISOString(), label);
-            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-            //alert("Callback has fired: [" + start.format('MMMM D, YYYY') + " to " + end.format('MMMM D, YYYY') + ", label = " + label + "]");
-        }
-
-        var optionSet1 = {
-            startDate: moment().subtract(29, 'days'),
-            endDate: moment(),
-            minDate: '01/01/2012',
-            maxDate: '12/31/2015',
-            dateLimit: {
-                days: 60
-            },
-            showDropdowns: true,
-            showWeekNumbers: true,
-            timePicker: false,
-            timePickerIncrement: 1,
-            timePicker12Hour: true,
-            ranges: {
-                'Today': [moment(), moment()],
-                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-                'This Month': [moment().startOf('month'), moment().endOf('month')],
-                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-            },
-            opens: 'left',
-            buttonClasses: ['btn btn-default'],
-            applyClass: 'btn-small btn-primary',
-            cancelClass: 'btn-small',
-            format: 'MM/DD/YYYY',
-            separator: ' to ',
-            locale: {
-                applyLabel: 'Submit',
-                cancelLabel: 'Clear',
-                fromLabel: 'From',
-                toLabel: 'To',
-                customRangeLabel: 'Custom',
-                daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-                monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-                firstDay: 1
-            }
-        };
-        $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
-        $('#reportrange').daterangepicker(optionSet1, cb);
-        $('#reportrange').on('show.daterangepicker', function () {
-            console.log("show event fired");
-        });
-        $('#reportrange').on('hide.daterangepicker', function () {
-            console.log("hide event fired");
-        });
-        $('#reportrange').on('apply.daterangepicker', function (ev, picker) {
-            console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
-        });
-        $('#reportrange').on('cancel.daterangepicker', function (ev, picker) {
-            console.log("cancel event fired");
-        });
-        $('#options1').click(function () {
-            $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
-        });
-        $('#options2').click(function () {
-            $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
-        });
-        $('#destroy').click(function () {
-            $('#reportrange').data('daterangepicker').remove();
-        });
-    });
-</script>
-<script>
-    NProgress.done();
-</script>
+@yield('scripts')
 <!-- /datepicker -->
 <!-- /footer content -->
 </body>
