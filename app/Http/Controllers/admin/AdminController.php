@@ -15,10 +15,14 @@ use Request;
 
 
 class AdminController extends Controller{
+
+    use MediaController;
+
+
     private $adminRepo;
     public function __construct(adminRepositroy $adm)
     {
-
+        $this->middleware('adminauth'); //
         $this->adminRepo = $adm;
     }
 

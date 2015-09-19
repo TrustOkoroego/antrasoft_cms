@@ -64,7 +64,7 @@
             </div>
             <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>Trust Okoroego</h2>
+                <h2>{{Auth::user()->firstname.' '.Auth::user()->lastname}}</h2>
             </div>
         </div>
         <!-- /menu prile quick info -->
@@ -104,6 +104,16 @@
                             <li><a href="form_advanced.html">Add Image</a>
                             </li>
                             <li><a href="form_validation.html">Manage Gallery</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fa fa-users"></i> File Manager <span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu" style="display: none">
+                            <li><a href="#">Images</a>
+                            </li>
+                            <li><a href="#">Files</a>
+                            </li>
+                            <li><a href="#">Videos</a>
                             </li>
                         </ul>
                     </li>
@@ -200,7 +210,7 @@
                         <li>
                             <a href="javascript:;">Help</a>
                         </li>
-                        <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                        <li><a href="{{URL::to('/')}}/admin/logout"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>

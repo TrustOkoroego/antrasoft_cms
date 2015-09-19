@@ -41,30 +41,25 @@
     <div id="wrapper">
         <div id="login" class="animate form">
             <section class="login_content">
-                <form>
+                <form method="post" action="{{URL::to('/')}}/admin/login">
+                    {!! csrf_field() !!}
                     <h1>Login Form</h1>
                     <div>
-                        <input type="text" class="form-control" placeholder="Username" required="" />
+                        <input type="text" name="email" class="form-control" placeholder="" required="" />
                     </div>
                     <div>
-                        <input type="password" class="form-control" placeholder="Password" required="" />
+                        <input type="password" name="password" class="form-control" placeholder="Password" required="" />
                     </div>
-                    <div>
-                        <a class="btn btn-default submit" href="index.html">Log in</a>
-                        <a class="reset_pass" href="#">Lost your password?</a>
+                    <div style="text-align: center">
+                        <p><button type="submit" class="btn btn-success submit">Log in</button></p>
+                        <p style="float: none"><a  href="#" style="display: inline-block">Lost your password?</a></p>
                     </div>
                     <div class="clearfix"></div>
                     <div class="separator">
-
-                        <p class="change_link">New to site?
-                            <a href="#toregister" class="to_register"> Create Account </a>
-                        </p>
                         <div class="clearfix"></div>
                         <br />
                         <div>
-                            <h1><i class="fa fa-paw" style="font-size: 26px;"></i> Gentelella Alela!</h1>
-
-                            <p>©2015 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                            <p>© {{date("Y")}} Antrasoft Admin</p>
                         </div>
                     </div>
                 </form>
