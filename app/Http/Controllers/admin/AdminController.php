@@ -17,6 +17,7 @@ use Request;
 class AdminController extends Controller{
 
     use MediaController;
+    use SlidePartialController;
 
 
     private $adminRepo;
