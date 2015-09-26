@@ -19,6 +19,8 @@ class CreatImagesTable extends Migration
             $table->text('image_description');
             $table->string('image_name');
             $table->integer('image_type');
+            $table->integer('weight');
+            $table->integer('published')->default(1);
             $table->timestamps();
         });
     }

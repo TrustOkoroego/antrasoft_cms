@@ -8,6 +8,8 @@
 
 namespace App\Http\Controllers\admin;
 use Request,Auth,URL;
+use App\antrasoft\helper;
+
 
 trait MediaController{
 
@@ -25,13 +27,9 @@ trait MediaController{
             $imageName = 'img'.time().Auth::user()->id.'.'.Request::file('image')->getClientOriginalExtension();
             Request::file('image')->move(base_path() . '/public/images/slide/', $imageName);
 
-            $imagic = new \Imagick(base_path() . '/public/images/slide/'.$imageName);
-            $imagic->cropimage(400,200,4,6);
-
 
             return URL::to('/').'/images/slide/'.$imageName;
         }
-
         if($type==2) // check for gallery image upload
         {
             $imageName = 'img'.time().Auth::user()->id.'.'.Request::file('image')->getClientOriginalExtension();
@@ -39,7 +37,17 @@ trait MediaController{
             return URL::to('/').'/images/gallery/'.$imageName;
         }
 
-
-
     }
-} 
+
+    public function getCropimage()
+    {
+
+       $imgP = new helper\ImageProcessing(base_path() . '/public/images/slide/img14431907277.jpg');
+       $imgP->crop(0,0,600,300);
+       $imgP->saveImage(base_path() . '/public/images/slide/tnew.jpg',90);
+        return '<img src="'.URL::to('/') . '/images/slide/tnew.jpg" />';
+    }
+
+
+
+}

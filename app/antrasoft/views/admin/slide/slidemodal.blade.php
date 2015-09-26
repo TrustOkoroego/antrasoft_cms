@@ -10,8 +10,8 @@
                 <h4 class="modal-title" id="myModalLabel">Modal title</h4>
             </div>
             <div class="modal-body">
-                <div id="cropper-slide" style="width:650px;height:300px; margin: 0 auto">
-                    <img id="cropper-slide-image" src="{{$res_bknd}}/images/picture2.jpg"  alt="Picture">
+                <div id="cropper-slide" style="width: 600px;height: 250px; margin: 0 auto;overflow: hidden">
+                    <img id="cropper-slide-image" src="http://localhost/antrasoft-cms/public/images/slide/img14432132447.PNG"  alt="Picture" style="width: 100%">
                 </div>
                 <div>
                     <label for="message"><br></label>
@@ -20,7 +20,6 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
             </div>
 
@@ -29,6 +28,7 @@
             <input type="hidden" id="_y" name="y" />
             <input type="hidden" id="_H" name="h" />
             <input type="hidden" id="_W" name="w" />
+            <input type="hidden" id="_Image" name="_image" />
 
 
         </div>
