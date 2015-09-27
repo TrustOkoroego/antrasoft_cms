@@ -12,9 +12,6 @@
                                     <li>
                                         <button onclick="window.location='{{URL::to('/')}}/admin/newslide'" class="btn btn-success"><i class="fa fa-plus"></i> Add New Slide </button>
                                     </li>
-                                    <li>
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Search </button>
-                                    </li>
                                 </ul>
                                 <div class="clearfix"></div>
                             </div>
@@ -22,7 +19,6 @@
                                 <table id="example" class="table table-striped responsive-utilities jambo_table">
                                     <thead>
                                     <tr class="headings">
-
                                         <th> Slide Image </th>
                                         <th> Description </th>
                                         <th> Weight </th>
@@ -71,7 +67,9 @@
                                             {{$sl->created_at->format('d/m/Y')}}
                                         </td>
                                         <td class="col-sm-1">
-                                            <a href="">Edit Slide</a>
+                                            <a title="edit slide" href="{{URL::to('/')}}/admin/editslide/{{$sl->id}}"><i class="fa fa-pencil"></i></a>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a style="cursor:pointer;" title="delete slide"  class="delete_slide" id="{{$sl->id}}"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     @endforeach

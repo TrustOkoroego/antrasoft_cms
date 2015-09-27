@@ -18,6 +18,7 @@ class AdminController extends Controller{
 
     use MediaController;
     use SlidePartialController;
+    use DirectoryreaderController;
 
 
     private $adminRepo;

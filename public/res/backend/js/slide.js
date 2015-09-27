@@ -42,6 +42,30 @@ $('#upload-btn').click(function(){
     return false;
 });
 
+$('.delete_slide').click(function(){
+    var mdl = confirm("Are you sure you want to delete this Slide item?");
+    if(!mdl){
+        return false;
+    }else{
+        var slideid = $(this).attr('id');
+        var token = $('#token').val();
+        $.ajax({
+            url:'http://localhost/antrasoft-cms/public/admin/dltsld',
+            type: 'POST',
+            data:{slideid:slideid,_token:token},
+            success: function (data) {
+                location.reload(true);
+            },
+            error:function(data)
+            {
+                alert('oops. something went wrong please reload the page');
+            },
+            cache: false
+        });
+    }
+
+
+})
 
 $('.weight_check').change(function(){
     var weight = $(this).val();
@@ -58,7 +82,7 @@ $('.weight_check').change(function(){
         {
             alert('oops. something went wrong please reload the page');
         },
-        cache: false,
+        cache: false
     });
 
 })

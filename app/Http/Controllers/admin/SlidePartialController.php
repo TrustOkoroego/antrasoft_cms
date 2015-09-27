@@ -22,7 +22,8 @@ trait SlidePartialController{
 
     public function getNewslide()
     {
-        return view('admin/slide/newslide');
+        $error = "";
+        return view('admin/slide/newslide',compact('error'));
     }
 
     public function postNewslide()
@@ -33,7 +34,16 @@ trait SlidePartialController{
         $img_url = str_replace(URL::to('/'),"",Request::input('imageurl'));
         if($desc1=="")
         {
-            $error = 'Please fill the empty fields';
+            $error = '<div class="alert alert-danger alert-dismissible fade in" role="alert">';
+            $error.= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>';
+            $error.=  '</button><strong> Please fill the empty field.</strong> </div>';
+            return view('admin/slide/newslide',compact('error'));
+        }
+        if($img_url=="")
+        {
+            $error = '<div class="alert alert-danger alert-dismissible fade in" role="alert">';
+            $error.= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>';
+            $error.=  '</button><strong>No image Selected.</strong> </div>';
             return view('admin/slide/newslide',compact('error'));
         }
         $image = new Image();
@@ -41,6 +51,58 @@ trait SlidePartialController{
         $image->image_description = $desc1;
         $image->image_type = 1;
         $image->save();
+
+        return Redirect::to('admin/slides');
+    }
+
+
+    public function getEditslide($slideId=0)
+    {
+        $slide = Image::find($slideId);
+        if(count($slide)<1)
+        {
+            return 'Page not found';
+        }
+
+        $error = "";
+        return view('admin/slide/editslide',compact('error','slide'));
+    }
+    public function postEditslide($slideId=0)
+    {
+        $error = '';
+        $desc1 = Request::input('description1');
+        $desc2 = Request::input('description2');
+        $img_url = str_replace(URL::to('/'),"",Request::input('imageurl'));
+
+        // check if the slide user wants to edit is existing
+        $slide = Image::find($slideId);
+        if(count($slide)<1)
+        {
+            return 'Page not found'; // if no slide for the id. throw a page not found exception.
+        }
+
+        if($desc1=="")
+        {
+            $error = '<div class="alert alert-danger alert-dismissible fade in" role="alert">';
+            $error.= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>';
+            $error.=  '</button><strong> Please fill the empty field.</strong> </div>';
+            return view('admin/slide/editslide',compact('error'));
+        }
+        if($img_url=="")
+        {
+            $error = '<div class="alert alert-danger alert-dismissible fade in" role="alert">';
+            $error.= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>';
+            $error.=  '</button><strong>No image Selected.</strong> </div>';
+            return view('admin/slide/editslide',compact('error'));
+        }
+        $image = Image::find($slideId);
+        if(count($image)>0)
+        {
+            $image->image_url = $img_url;
+            $image->image_description = $desc1;
+            $image->image_type = 1;
+            $image->save();
+        }
 
         return Redirect::to('admin/slides');
     }
@@ -74,5 +136,16 @@ trait SlidePartialController{
             return 0;
         }
 
+    }
+
+    public function postDltsld()
+    {
+        $slideid = Request::input('slideid');
+        $slide = Image::find($slideid);
+        if(count($slide)>0)
+        {
+            $slide->delete();
+            return 1;
+        }
     }
 } 

@@ -26,8 +26,6 @@ trait MediaController{
         {
             $imageName = 'img'.time().Auth::user()->id.'.'.Request::file('image')->getClientOriginalExtension();
             Request::file('image')->move(base_path() . '/public/images/slide/', $imageName);
-
-
             return URL::to('/').'/images/slide/'.$imageName;
         }
         if($type==2) // check for gallery image upload

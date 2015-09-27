@@ -23,6 +23,7 @@
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <div style="width: 100%;">
+                        {!!$error!!}
                         <form method="post" action="" >
                             <input type="hidden" name="imageurl" id="imageurl" />
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -48,6 +49,7 @@
 </div>
 
 @include('admin.slide.slidemodal',array('res_bknd',$res_bknd));
+@include('admin.media.imagebrowser',array('res_bknd',$res_bknd));
 
 @stop
 
@@ -63,4 +65,5 @@
 @section('script')
 <!--<script src="{{$res_bknd}}/js/cropping/cropper.min.js"></script>-->
 <script src="{{$res_bknd}}/js/slide.js"></script>
+<script src="{{$res_bknd}}/js/imagebrowser.js"></script>
 @stop

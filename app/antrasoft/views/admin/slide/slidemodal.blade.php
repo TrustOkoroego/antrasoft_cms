@@ -65,7 +65,7 @@
                     <p id="file-s"></p>
                     <p>- OR -</p>
                     </p>
-                    <p class="btn btn-default">Select from Image Resources</p>
+                    <p class="btn btn-default" id="lunch_from_image_browser">Select from Image Resources</p>
                     <p><div class="inner-circles-loader" style="display: none">
                         Loading…
                     </div>
