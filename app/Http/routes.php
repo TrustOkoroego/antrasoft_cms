@@ -16,3 +16,4 @@ Route::post('admin/login', 'Auth\AuthController@postLogin');
 Route::get('admin/logout', 'Auth\AuthController@getLogout');
 
 Route::controller('admin','admin\AdminController');
+Route::controller('/','site\HomeController');

@@ -14,9 +14,11 @@ class CreatImagesTable extends Migration
     {
         Schema::create('Images', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('parent_id');
             $table->string('image_url');
             $table->string('image_crop_url');
             $table->text('image_description');
+            $table->text('image_description2');
             $table->string('image_name');
             $table->integer('image_type');
             $table->integer('weight');

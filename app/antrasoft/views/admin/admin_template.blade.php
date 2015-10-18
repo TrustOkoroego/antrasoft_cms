@@ -75,23 +75,23 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a><i class="fa fa-edit"></i> Blog <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-edit"></i> Content Manager <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="form.html">New Blog Post</a>
+                            <li><a href="{{URL::to('/')}}/admin/newcontent">New Content</a>
                             </li>
-                            <li><a href="form_advanced.html">Posts</a>
+                            <li><a href="{{URL::to('/')}}/admin/contents">Contents</a>
                             </li>
-                            <li><a href="form_validation.html">Settings</a>
+                            <li><a href="{{URL::to('/')}}/admin/comments">Comments</a>
                             </li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-edit"></i> Gallery <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="form.html">new Gallery</a>
+                            <li><a href="{{URL::to('/')}}/admin/gallery">Manage Gallery</a>
                             </li>
-                            <li><a href="form_advanced.html">Add Image</a>
+                            <li>
+                                <a href="{{URL::to('/')}}/admin/newgallery">Create Categories</a>
                             </li>
-                            <li><a href="form_validation.html">Manage Gallery</a>
                             </li>
                         </ul>
                     </li>
@@ -121,31 +121,11 @@
                     </li>
                     <li><a><i class="fa fa-desktop"></i> Slides <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu" style="display: none">
-                            <li><a href="{{URL::to('/')}}/admin/slides">Manage Slide</a>
+                            <li>
+                                <a href="{{URL::to('/')}}/admin/slides">Manage Slide</a>
                             </li>
-                            <li><a href="media_gallery.html">Manage Slides</a>
-                            </li>
-                            <li><a href="typography.html">Typography</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a><i class="fa fa-desktop"></i> E-commerce <span class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu" style="display: none">
-                            <li><a href="general_elements.html">Sock</a>
-                            </li>
-                            <li><a href="media_gallery.html">Categories</a>
-                            </li>
-                            <li><a href="typography.html">Sub Categories</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a><i class="fa fa-bar-chart-o"></i> Emailing <span class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu" style="display: none">
-                            <li><a href="chartjs.html">Compose Bulk Email</a>
-                            </li>
-                            <li><a href="chartjs2.html">Chart JS2</a>
-                            </li>
-                            <li><a href="morisjs.html">Moris JS</a>
+                            <li>
+                                <a href="{{URL::to('/')}}/admin/newslide">New Slide</a>
                             </li>
                         </ul>
                     </li>

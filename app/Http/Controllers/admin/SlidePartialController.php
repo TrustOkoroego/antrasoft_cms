@@ -48,7 +48,8 @@ trait SlidePartialController{
         }
         $image = new Image();
         $image->image_url = $img_url;
-        $image->image_description = $desc1;
+        $image->image_description = str_replace('[b]','</br>',$desc1);
+        $image->image_description2 = str_replace('[b]','</br>',$desc2);
         $image->image_type = 1;
         $image->save();
 
@@ -63,7 +64,6 @@ trait SlidePartialController{
         {
             return 'Page not found';
         }
-
         $error = "";
         return view('admin/slide/editslide',compact('error','slide'));
     }
@@ -99,7 +99,8 @@ trait SlidePartialController{
         if(count($image)>0)
         {
             $image->image_url = $img_url;
-            $image->image_description = $desc1;
+            $image->image_description = str_replace('[b]','</br>',$desc1);
+            $image->image_description2 = str_replace('[b]','</br>',$desc2);
             $image->image_type = 1;
             $image->save();
         }

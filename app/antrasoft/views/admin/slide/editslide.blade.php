@@ -25,13 +25,13 @@
                     <div style="width: 100%;">
                         {!!$error!!}
                         <form method="post" action="" >
-                            <input type="hidden" name="imageurl" id="imageurl" />
+                            <input type="hidden" name="imageurl" id="imageurl" value="{{$slide->image_url}}" />
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <label for="message">Description :</label>
-                            <textarea class="form-control"  name="description1" >{{$slide->image_description}}</textarea>
+                            <textarea class="form-control"  name="description1" >{{str_replace('</br>','[b]',$slide->image_description)}}</textarea>
                             <br>
                             <label for="message">Description 2 :</label>
-                            <textarea class="form-control" name="description2" ></textarea>
+                            <textarea class="form-control" name="description2" >{{str_replace('</br>','[b]',$slide->image_description2)}}</textarea>
                             <br>
                             <button class="btn btn-success">Publish</button>
                             </p>

@@ -19,7 +19,7 @@ $('#upload-btn').click(function(){
     var formData = new FormData($('form#imageupload')[0]);
     $('.inner-circles-loader').show();
     $.ajax({
-        url:'http://localhost/antrasoft-cms/public/admin/uploadimage/1',
+        url:'http://localhost/antrasoft-cms/public/admin/uploadimage/1', // 1 signifies the type of method call
         type: 'POST',
         data: formData,
         success: function (data) {

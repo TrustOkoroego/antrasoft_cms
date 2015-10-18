@@ -21,6 +21,7 @@
                                     <tr class="headings">
                                         <th> Slide Image </th>
                                         <th> Description </th>
+                                        <th> Description 2 </th>
                                         <th> Weight </th>
                                         <th class="col-sm-1"> Published </th>
                                         <th>created_at </th>
@@ -39,6 +40,7 @@
                                             <img src="{{URL::to('/')}}/{{$sl->image_url}}" width="300px">
                                         </td>
                                         <td class=" ">{{$sl->image_description}}</td>
+                                        <td class=" ">{{str_replace('</br>','[b]',$sl->image_description2)}}</td>
                                         <td class=" "><select slid="{{$sl->id}}"  name="weight" class="form-control weight_check">
                                                 <option>{{$sl->weight}}</option>
                                                 @for($i=1;$i<31;$i++)

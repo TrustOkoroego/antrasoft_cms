@@ -25,7 +25,5 @@ class UserTableSeeder extends Seeder
         $user->profile_image = "img.jpg";
         $user->save();
 
-
-
     }
 }
