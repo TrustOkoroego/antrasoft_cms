@@ -4,6 +4,9 @@
 <html lang="en">
 
 <head>
+    <script type="text/javascript">
+        var url = "{{URL::to('/')}}";
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -23,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="{{$res_bknd}}/css/maps/jquery-jvectormap-2.0.1.css" />
     <link href="{{$res_bknd}}/css/icheck/flat/green.css" rel="stylesheet" />
     <link href="{{$res_bknd}}/css/floatexamples.css" rel="stylesheet" type="text/css" />
+
     @yield('styles')
 
 

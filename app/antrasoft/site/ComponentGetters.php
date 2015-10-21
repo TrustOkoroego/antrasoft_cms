@@ -14,7 +14,11 @@ use App\antrasoft\models\Image;
 class ComponentGetters {
     public function getSlide($count=2)
     {
-        $slides = Image::where('image_type',1)->orderBy('weight','asc')->orderBy('created_at','desc')->take($count)->get();
+        $slides = Image::where('image_type',1)
+            ->where('published',1)
+            ->orderBy('weight','asc')
+            ->orderBy('created_at','desc')
+            ->take($count)->get();
         return $slides;
     }
 } 

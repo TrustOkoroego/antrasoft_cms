@@ -118,6 +118,11 @@ class UserRepository {
         return User::all();
     }
 
+    public function getUsersBasedOnType($type)
+    {
+        return User::where('privilege','like','%'.$type.'%')->get();
+    }
+
     public function getOneUser($id)
     {
         return User::find($id);

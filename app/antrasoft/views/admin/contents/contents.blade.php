@@ -10,12 +10,27 @@
                 <h2><i class="fa fa-slideshare"></i> Content Manager <small></small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
-                        <button onclick="window.location='{{URL::to('/')}}/admin/newslide'" class="btn btn-success"><i class="fa fa-plus"></i> Add New Content </button>
+                        <button onclick="window.location='{{URL::to('/')}}/admin/newcontent'" class="btn btn-success"><i class="fa fa-plus"></i> Add New Content </button>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
             </div>
             <div class="x_content">
+                <div style="margin-bottom: 10px">
+                    <select id="contenttype" class="form-control" style="width:150px">
+                        @if(count($activeContentType)<1)
+                        <option value="">All</option>
+                        @else
+                        <option value="{{$activeContentType->id}}">{{$activeContentType->contenttype_name}}</option>
+                        @endif
+
+                        @foreach($ctypes as $c)
+                        <option value="{{$c->id}}"> {{$c->contenttype_name}} </option>
+                        @endforeach
+                        <option value="">All</option>
+                    </select>
+
+                </div>
                 <table id="example" class="table table-striped responsive-utilities jambo_table">
                     <thead>
                     <tr class="headings">
@@ -44,10 +59,10 @@
                             {{$con['intro_text']}}
                         </td>
                         <td class="">
-                            <img src="{{URL::to('/')}}/{{$con['featured_image']}}" width="300px">
+                            <img src="{{URL::to('/')}}/{{$con['featured_image']}}" width="200px">
                         </td>
 
-                        <td class=" "><select slid="{{$con['id']}}"  name="weight" class="form-control weight_check">
+                        <td class=" "><select contentid="{{$con['id']}}"  name="weight" class="form-control weight_check">
                                 <option>{{$con['weight']}}</option>
                                 @for($i=1;$i<31;$i++)
                                 <option value="{{$i}}">{{$i}}</option>
@@ -56,12 +71,12 @@
                         <td class=" ">
                             <div class="checkbox">
                                 <label class="">
-                                    <div slid="{{$con['id']}}" slid="{{$con['id']}}" style="position: relative;" class="published_check icheckbox_flat-green
+                                    <div contentid="{{$con['id']}}" slid="{{$con['id']}}" style="position: relative;" class="published_check icheckbox_flat-green
                                                     <?php if($con['status']==1){ ?>
                                                     checked
                                                     <?php } ?>
                                                     "><input style="position: absolute; opacity: 0;" class="flat"
-                                            <?php if($con['status']==1){ ?>
+                                            <?php if($con['published']==1){ ?>
                                                 checked="checked"
                                             <?php } ?>
                                                              type="checkbox"><ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper"></ins></div>
