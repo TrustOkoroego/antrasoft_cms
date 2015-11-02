@@ -23,6 +23,7 @@ class CreateContentTable extends Migration
             $table->string('tags');
             $table->integer('status');
             $table->string('published');
+            $table->string('stop_published');
             $table->string('published_date');
             $table->integer('weight');
             $table->timestamps();

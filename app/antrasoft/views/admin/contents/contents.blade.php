@@ -35,7 +35,7 @@
                     <thead>
                     <tr class="headings">
                         <th> Title </th>
-                        <th> Description </th>
+                       <!-- <th> Description </th>-->
                         <th> Featured Image </th>
                         <th class="col-sm-1"> Weight </th>
                         <th class="col-sm-1"> Published </th>
@@ -55,11 +55,14 @@
                         <td class="">
                             {{$con['title']}}
                         </td>
-                        <td class="">
-                            {{$con['intro_text']}}
+                        <!--<td class="">
+                            {{$con['link']}}
                         </td>
+                        -->
                         <td class="">
-                            <img src="{{URL::to('/')}}/{{$con['featured_image']}}" width="200px">
+                            <div style="overflow: hidden;height:100px">
+                            <img src="{{URL::to('/')}}/{{$con['featured_image']}}" width="200px" >
+                            </div>
                         </td>
 
                         <td class=" "><select contentid="{{$con['id']}}"  name="weight" class="form-control weight_check">
@@ -92,7 +95,7 @@
                         <td class="col-sm-1">
                             <a title="edit slide" href="{{URL::to('/')}}/admin/editcontent/{{$con['id']}}"><i class="fa fa-pencil"></i></a>
                             &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a style="cursor:pointer;" title="delete slide"  class="delete_slide" id="{{$con['id']}}"><i class="fa fa-trash"></i></a>
+                            <a style="cursor:pointer;" title="delete content"  class="delete_content" id="{{$con['id']}}"><i class="fa fa-trash"></i></a>
                         </td>
                     </tr>
                     @endforeach

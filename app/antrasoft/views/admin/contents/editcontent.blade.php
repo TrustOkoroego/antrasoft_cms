@@ -7,7 +7,7 @@
         <input type="hidden" id="token" name="_token" value="{{ csrf_token() }}">
         <div class="x_panel">
             <div class="x_title">
-                <h2><i class="fa fa-plus"></i> Add new Content <small></small></h2>
+                <h2><i class="fa fa-plus"></i> Edit Content <small></small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
                         <button  id="addfeaturedimage" class="btn btn-success"><i class="fa fa-plus"></i> Upload featured Image</button>
@@ -20,39 +20,40 @@
                 <form method="post" id="newcontentform" action="" >
                     <div class="col-md-8 col-xs-12">
                         <div style="border: thin solid #CCCCCC">
-                            <textarea id="editor" name="editor" cols="40" rows="40" ></textarea>
-                            </div>
+                            <textarea id="editor" name="editor" cols="40" rows="40" >{!!$cont['main_text']!!}</textarea>
+                        </div>
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div style="width: 100%;">
                             {!!$error!!}
-                                <img id="sldiepreview"  src=""  alt="Picture" style="width: 100%">
-                                <br>
-                                <input type="hidden" name="imageurl" id="imageurl" />
-                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <label for="message">Title:</label>
-                                <input type="text" class="form-control" name="description1" id="title"  />
-                                <br>
-                                Publisher:
-                                <select class="form-control" name="contentpublisher">
-                                    @foreach($publishers as $p)
-                                    <option value="{{$p->id}}"> {{$p->firstname.' '.$p->lastname}} </option>
-                                    @endforeach
-                                    <option value="">All</option>
-                                </select>
-                                <br>
-                                <label>Start Publish Date:</label>
-                                <fieldset>
-                                    <div class="control-group">
-                                        <div class="controls" style="margin-left: -10px">
-                                            <div class="col-md-11 xdisplay_inputx form-group has-feedback">
-                                                <input name="publisheddate" class="form-control has-feedback-left" id="single_cal1" placeholder="Published date" aria-describedby="inputSuccess2Status" type="text">
-                                                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
-                                                <span id="inputSuccess2Status" class="sr-only">(success)</span>
-                                            </div>
+                            <img id="sldiepreview"  src="{{URL::to('/')}}{{$cont['featured_image']}}"  alt="Picture" style="width: 100%">
+                            <br>
+                            <input type="hidden" value="{{URL::to('/')}}{{$cont['featured_image']}}" name="imageurl" id="imageurl" />
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            <label for="message">Title:</label>
+                            <input type="text" class="form-control" name="description1" id="title" value="{!!$cont['title']!!}" />
+                            <br>
+                            Publisher:
+                            <select class="form-control" name="contentpublisher">
+
+                                @foreach($publishers as $p)
+                                <option value="{{$p->id}}"> {{$p->firstname.' '.$p->lastname}} </option>
+                                @endforeach
+                                <option value="">All</option>
+                            </select>
+                            <br>
+                            <label>Published Date:</label>
+                            <fieldset>
+                                <div class="control-group">
+                                    <div class="controls" style="margin-left: -10px">
+                                        <div class="col-md-11 xdisplay_inputx form-group has-feedback">
+                                            <input value="{{$cont['created_at']}}" name="publisheddate" class="form-control has-feedback-left" id="single_cal1" placeholder="Published date" aria-describedby="inputSuccess2Status" type="text">
+                                            <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                            <span id="inputSuccess2Status" class="sr-only">(success)</span>
                                         </div>
                                     </div>
-                                </fieldset>
+                                </div>
+                            </fieldset>
                             <label>End Publish Date:</label>
                             <fieldset>
                                 <div class="control-group">
@@ -65,27 +66,27 @@
                                     </div>
                                 </div>
                             </fieldset>
-                                <br>
-                                <label for="message">Intro Text: </label>
-                                <textarea class="form-control" name="description2" ></textarea>
-                                <br>
-                                <label>Content Type:</label>
-                                <select class="form-control" name="contenttype" id="contenttypep">
-                                    @if(count($activeContentType)<1)
-                                    <option value="">All</option>
-                                    @else
-                                    <option value="{{$activeContentType->id}}">{{$activeContentType->contenttype_name}}</option>
-                                    @endif
+                            <br>
+                            <label for="message">Intro Text: </label>
+                            <textarea class="form-control" name="description2" >{{$cont['intro_text']}}</textarea>
+                            <br>
+                            <label>Content Type:</label>
+                            <select class="form-control" name="contenttype" id="contenttypep">
+                                @if(count($activeContentType)<1)
+                                <option value="">All</option>
+                                @else
+                                <option value="{{$activeContentType->id}}">{{$activeContentType->contenttype_name}}</option>
+                                @endif
 
-                                    @foreach($ctypes as $c)
-                                    <option value="{{$c->id}}"> {{$c->contenttype_name}} </option>
-                                    @endforeach
-                                    <option value="">All</option>
-                                </select>
-                                <br>
+                                @foreach($ctypes as $c)
+                                <option value="{{$c->id}}"> {{$c->contenttype_name}} </option>
+                                @endforeach
+                                <option value="">All</option>
+                            </select>
+                            <br>
 
-                                <button class="btn btn-success" id="content_publish">Publish</button>
-                                </p>
+                            <button class="btn btn-success" id="content_publish">Update</button>
+                            </p>
                         </div>
                     </div>
                 </form>
@@ -133,7 +134,6 @@
 
             //console.log(start.toISOString(), end.toISOString(), label);
         });
-
     });
 
 </script>

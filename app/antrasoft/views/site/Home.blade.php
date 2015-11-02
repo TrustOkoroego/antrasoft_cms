@@ -138,7 +138,7 @@
             <div class="separator-2"></div>
             <p class="lead" style="font-size: 18px">Service Ride Ltd is incorporated under the Companies and Allied Matters Act of 1990, and with the registration
                 No RC748792. The company’s core business is in Training, Finance, and Management consultancy, while her ancillaries are
-                in Local and Foreign Trade.</p> <p style="font-size: 18px">The company has built repute in procurement specialties and skills since incorporation, with
+                in Local and Foreign Trade.</p> <p class="lead" style="font-size: 18px">The company has built repute in procurement specialties and skills since incorporation, with
                 good business relationship with many companies. The company has a wide range of business network with multinational
                 companies across borders and is well known for her contribution in career development and management. The Principal
                 consultant of the company has in this regards, written several career books that are in high demand overseas today.</p>
@@ -164,17 +164,50 @@
     </div>
     <!-- main end -->
 
-    <div class="full-width-section">
-        <div class="full-text-container left">
-            <h1>Impress your clients</h1>
-            <div class="separator-2 right"></div>
-            <p class="lead">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at praesentium laudantium.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum.</p>
+    <section style="margin-top: 0px;" class="main-container">
+
+        <div class="container">
+            <div class="row">
+
+                <!-- main start -->
+                <!-- ================ -->
+                <div class="main col-md-12">
+
+                    <!-- page-title start -->
+                    <!-- page-title end -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Project Description</h3>
+                            <div class="separator-2"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+                            <p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+                        </div>
+                        <div class="col-md-6" style="background-color: #FFFFFF; height: 500px">
+                            <h3>Recent Programmes</h3>
+                            <div class="separator-2"></div>
+
+                            @for($i=1;$i<4;$i++)
+                            <div class="testimonial clearfix" style="margin-top: 3px;margin-bottom: 3px">
+                                <div class="col-md-2">
+                                    <img src="{{URL::to('/')}}/site/images/testimonial-1.jpg" alt="Jane Doe" title="file" class="img-container">
+                                </div>
+                                <div class="col-md-10">
+                                    <h4 style="margin-bottom: 3px">Secrets of total self confidence </h4>
+                                    <p style="font-weight:bold;margin-bottom: 0px"> 20 January 2015 - 30 Febuary 2015</p>
+                                    <p style="font-weight:bold;margin:0px;padding:0px"> @ 20 Calabar road</p>
+                                 </div>
+                            </div>
+                            <hr style="margin: 15px">
+                            @endfor
+                            <a href="#" class="btn btn-gray btn-sm">View all Programms</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- main end -->
+
+            </div>
         </div>
-        <div class="full-image-container">
-            <img class="center-block" src="{{URL::to('/')}}/site/images/section-image-9.jpg" alt="">
-        </div>
-    </div>
+    </section>
 </div>
 <!-- main-container end -->
 <!-- section start -->
@@ -183,44 +216,24 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-8">
                 <div class="owl-carousel content-slider-with-controls-bottom">
+                    @foreach($testimony as $tm)
                     <div class="testimonial margin-clear clearfix">
-                        <h2 class="title">Thank You!</h2>
+                        <h2 class="title">{{$tm->intro_text}}</h2>
                         <div class="testimonial-image">
-                            <img src="{{URL::to('/')}}/site/images/testimonial-1.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
+                            <img src="{{URL::to('/')}}{{$tm->featured_image}}" alt="{{$tm->title}}" title="" class="img-circle">
                         </div>
                         <div class="testimonial-body">
-                            <p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium,  totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
-                            <div class="testimonial-info-1">- Jane Doe</div>
-                            <div class="testimonial-info-2">By Company</div>
+                            <p>{!!$tm->main_text!!}</p>
+                            <div class="testimonial-info-2">{{$tm->title}}</div>
                         </div>
                         <hr class="clear">
                     </div>
-                    <div class="testimonial margin-clear clearfix">
-                        <h2 class="title">Great!</h2>
-                        <div class="testimonial-image">
-                            <img src="{{URL::to('/')}}/site/images/testimonial-2.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-                        </div>
-                        <div class="testimonial-body">
-                            <p>Turpis arcu rutrum nunc, ac laoreet turpis augue a justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, esse, animi maxime voluptate tempore at sunt labore incidunt nulla dignissimos iusto ad similique inventore distinctio quam repellendus itaque minus minima.</p>
-                            <div class="testimonial-info-1">- John Doe</div>
-                            <div class="testimonial-info-2">By Company</div>
-                        </div>
-                        <hr class="clear">
-                    </div>
-                    <div class="testimonial margin-clear clearfix">
-                        <h2 class="title">Amazing!</h2>
-                        <div class="testimonial-image">
-                            <img src="{{URL::to('/')}}/site/images/testimonial-3.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-                        </div>
-                        <div class="testimonial-body">
-                            <p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.</p>
-                            <div class="testimonial-info-1">- John Doe</div>
-                            <div class="testimonial-info-2">By Company</div>
-                        </div>
-                        <hr class="clear">
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

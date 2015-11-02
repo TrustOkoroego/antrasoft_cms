@@ -12,7 +12,7 @@ use App\antrasoft\models\Content;
 use App\antrasoft\models\Contenttype;
 use App\antrasoft\account\UserRepository;
 use Illuminate\Support\Facades\Response;
-use Session,Request;
+use Session,Request,URL;
 
 
 class ContentManager {
@@ -45,7 +45,7 @@ class ContentManager {
             "featured_image" => $c->featured_image,
             "main_text" => $c->main_text,
             "tg" => $this->getTags($c->tags),
-            "link" => '2015/12/3/'.str_replace(' ','-',$c->title),
+            "link" => $c->created_at->format('Y/m').'/'.$c->id.'/'.str_replace(' ','-',$c->title),
             "published_date" => $c->created_at->format('d/m/Y'),
             "comments"=> $this->getComments($c->id),
             "weight"=>$c->weight,
@@ -59,24 +59,72 @@ class ContentManager {
         return $eachcontent;
     }
 
-    public function cretaeContent()
+    public function getOneContent()
+    {
+        $eachcontent = "";
+        $c=$this->content;
+            $carray = array(
+                "id" => $c->id,
+                "title"=> $c->title,
+                "intro_text" => $c->intro_text,
+                "featured_image" => $c->featured_image,
+                "main_text" => $c->main_text,
+                "contenttype" => $c->content_type,
+                "tg" => $this->getTags($c->tags),
+                "link" => $c->created_at->format('Y/m').'/'.$c->id.'/'.str_replace(' ','-',$c->title),
+                "published_date" => $c->created_at->format('Y-m-d'),
+                "comments"=> $this->getComments($c->id),
+                "weight"=>$c->weight,
+                "published" => $c->published,
+                "status"=>$c->status,
+                "created_at"=>$c->created_at
+            );
+        return $carray;
+    }
+
+    public function createContent()
     {
         $content =  new Content();
         $content->title = Request::input('description1');
-        $content->intro_text = Request::input('description2');;
-        $content->featured_image = Request::input('imageurl');
+        $content->intro_text = Request::input('description2');
+        $content->featured_image = str_replace(URL::to('/'),"",Request::input('imageurl'));
         $content->main_text = Request::input('editor');
-        $content->content_type = Response::input('contenttype');
+        $content->content_type = Request::input('contenttype');
         if(Request::input('publisheddate')=="")
         {
             $content->published_date = \Carbon\Carbon::now();
+            $content->stop_published = Request::input('endpublisheddate');
         }else{
-            $content->published_data = "to be continued..."   /10/21/2015
+            $content->published_date = Request::input('publisheddate');
         }
         $content->status = 1;
-        $content->user = Response::input('contentpublisher');
+        $content->userid = Request::input('contentpublisher');
         $content->weight = 0;
         $content->save();
+
+    }
+
+    public function editContent()
+    {
+
+        $content=$this->content;
+
+        $content->title = Request::input('description1');
+        $content->intro_text = Request::input('description2');
+        $content->featured_image = str_replace(URL::to('/'),"",Request::input('imageurl'));
+        $content->main_text = Request::input('editor');
+        $content->content_type = Request::input('contenttype');
+        if(Request::input('publisheddate')=="")
+        {
+
+        }else{
+            $content->published_date = Request::input('publisheddate');
+        }
+        $content->status = 1;
+        $content->userid = Request::input('contentpublisher');
+        $content->save();
+        return 1;
+
     }
 
     public function setContentType($id)
@@ -147,4 +195,23 @@ class ContentManager {
         $getComments = Comment::where('postid',$contentid)->get();
         return $getComments;
     }
-} 
+
+    // testimony
+
+    public function getTestimony()
+    {
+        $testimony =  Content::where('content_type',4)->limit(8)->get();
+        return $testimony;
+    }
+
+    // delete a content
+    public function deleContent($id)
+    {
+        $content = Content::find($id);
+        if(count($content)>0)
+        {
+            $content->delete();
+            return 1;
+        }
+    }
+}

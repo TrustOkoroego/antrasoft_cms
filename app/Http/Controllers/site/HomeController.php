@@ -20,6 +20,7 @@ class HomeController extends Controller{
     public function getIndex()
     {
         $slide = $this->component->getSlide(4);
-        return view('site/home',compact('slide'));
+        $testimony = $this->component->getTestimony();
+        return view('site/home',compact('slide','testimony'));
     }
 } 

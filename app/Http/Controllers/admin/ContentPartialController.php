@@ -9,6 +9,7 @@
 namespace App\Http\Controllers\admin;
 
 
+use Mockery\CountValidator\Exception;
 use Request,URL,Redirect;
 use App\antrasoft\content\ContentManager;
 use App\antrasoft\models\Content;
@@ -43,22 +44,77 @@ trait ContentPartialController {
         $type = Session::get('contenttype');
         $contents ="";
         $error = "";
-
-        if($type!="")
-        {
-            $contents = Content::where("content_type",$type)->orderBy('weight','asc')->get();
-
-        }else{
-            $contents = Content::orderBy('weight','asc')->get();
-        }
-
         $cmanager = new ContentManager($contents);
-        $content = $cmanager->getContents($contents);
         $ctypes = $cmanager->getContentTypes();
         $publishers = $cmanager->getUsersBasedOnType('can_write_post');
         $activeContentType = $cmanager->getActiveContenttype($type);
-       return view('admin/contents/newcontent',compact('content','ctypes','error','activeContentType','publishers'));
+       return view('admin/contents/newcontent',compact('ctypes','error','activeContentType','publishers'));
     }
+    public function postNewcontent()
+    {
+
+        $type = Session::get('contenttype');
+        $contents ="";
+        $error = "";
+        $cmanager = new ContentManager($contents);
+        try{
+            $cmanager->createContent();
+        }
+        catch(Exception $ex)
+        {
+            return $ex->getMessage();
+        }
+
+        $ctypes = $cmanager->getContentTypes();
+        $publishers = $cmanager->getUsersBasedOnType('can_write_post');
+        $activeContentType = $cmanager->getActiveContenttype($type);
+        return view('admin/contents/newcontent',compact('ctypes','error','activeContentType','publishers'));
+    }
+
+    public function getEditcontent($id)
+    {
+        $contents = Content::find($id);
+        if(count($contents)<1){
+            return "Content not found";
+        }
+
+        $error = "";
+        $cmanager = new ContentManager($contents);
+        $ctypes = $cmanager->getContentTypes();
+        $publishers = $cmanager->getUsersBasedOnType('can_write_post');
+
+        $cont = $cmanager->getOneContent();
+        $type = $cont['contenttype'];
+        $activeContentType = $cmanager->getActiveContenttype($type);
+        //dd($cont);
+        return view('admin/contents/editcontent',compact('ctypes','error','activeContentType','publishers','cont'));
+    }
+
+    public function postEditcontent($id)
+    {
+        $cont = Content::find($id);
+        if(count($cont)<1)
+        {
+            return "Page not found";
+        }
+        $type = Session::get('contenttype');
+        $contents ="";
+        $error = "";
+        $cmanager = new ContentManager($cont);
+        try{
+            $cmanager->editContent();
+        }
+        catch(Exception $ex)
+        {
+            return $ex->getMessage();
+        }
+        $cont = $cmanager->getOneContent();
+        $ctypes = $cmanager->getContentTypes();
+        $publishers = $cmanager->getUsersBasedOnType('can_write_post');
+        $activeContentType = $cmanager->getActiveContenttype($type);
+        return view('admin/contents/editcontent',compact('ctypes','error','activeContentType','publishers','cont'));
+    }
+
 
 
 
@@ -88,5 +144,14 @@ trait ContentPartialController {
     public function postChangecontentpublish(ContentManager $cm)
     {
         return $cm->setPublished();
+    }
+
+    public function postDltcontent(ContentManager $cm)
+    {
+      if(!Request::Ajax())
+      {
+          return "Not allowed";
+      }
+      return $cm->deleContent(Request::input('contentid'));
     }
 } 

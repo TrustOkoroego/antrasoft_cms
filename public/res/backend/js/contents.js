@@ -153,12 +153,13 @@ $(document).ready(function(){
 
     })
 
-    $('#content_publish').click(function(e){
+    $('#newcontentform #content_publish').click(function(e){
         e.preventDefault();
         var editor_data = CKEDITOR.instances['editor'].getData();
         var title = $('#title').val();
         var contenttypep = $('#contenttypep').val();
         var valid = true;
+        //alert($('#single_cal1').val());
         if(editor_data=="")
         {
             valid = false;
@@ -180,7 +181,33 @@ $(document).ready(function(){
         {
             $('#newcontentform').submit();
         }
-
+        return false;
     });
+
+
+    $('.delete_content').click(function(){
+        var mdl = confirm("Are you sure you want to delete this Content?");
+        if(!mdl){
+            return false;
+        }else{
+            var contentid = $(this).attr('id');
+            var token = $('#token').val();
+            $.ajax({
+                url:'http://localhost/antrasoft-cms/public/admin/dltcontent',
+                type: 'POST',
+                data:{contentid:contentid,_token:token},
+                success: function (data) {
+                    location.reload(true);
+                },
+                error:function(data)
+                {
+                    alert('oops. something went wrong please reload the page');
+                },
+                cache: false
+            });
+        }
+
+
+    })
 
 });

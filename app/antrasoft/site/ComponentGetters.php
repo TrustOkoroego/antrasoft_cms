@@ -8,6 +8,7 @@
 
 namespace App\antrasoft\site;
 use App\antrasoft\models\Image;
+use App\antrasoft\content\ContentManager;
 
 
 
@@ -20,5 +21,11 @@ class ComponentGetters {
             ->orderBy('created_at','desc')
             ->take($count)->get();
         return $slides;
+    }
+
+    public function getTestimony()
+    {
+        $cm = new ContentManager();
+        return $cm->getTestimony(); // return user testimonies
     }
 } 
