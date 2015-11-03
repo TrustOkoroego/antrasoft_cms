@@ -219,7 +219,7 @@
     fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
      dark: dark header version e.g. <header class="header dark clearfix">
 ================ -->
-<header class="header fixed clearfix">
+<header class="header fixed clearfix" style="padding-bottom: 3px;">
 <div class="container">
 <div class="row">
 <div class="col-md-3">
@@ -229,16 +229,14 @@
     <div class="header-left clearfix">
 
         <!-- logo -->
-        <div class="logo">
+        <div class="logo" style="margin-top: -10px" >
             <a href="index.html"><img id="logo" src="{{URL::to('/')}}/site/images/logo_dark_header_blue.png" alt="iDea"></a>
         </div>
 
-        <!-- name-and-slogan -->
-        <!--
-        <div class="site-slogan">
-            Clean &amp; Powerful Bootstrap Theme
+        <div class="site-slogan" style="text-align: right;margin-top: -10px">
+            Your career's next level
         </div>
-        -->
+
 
     </div>
     <!-- header-left end -->
@@ -432,17 +430,8 @@
                             <li><a href="portfolio-item-3.html">Portfolio single 3</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="blog-right-sidebar.html" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                            <li><a href="blog-no-sidebar.html">Blog No Sidebars</a></li>
-                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                            <li><a href="blog-masonry-sidebar.html">Blog Masonry - Sidebar</a></li>
-                            <li><a href="blog-timeline.html">Blog Timeline</a></li>
-                            <li><a href="blog-post.html">Blog post</a></li>
-                        </ul>
+                    <li>
+                        <a href="{{URL::to('/')}}/blog">Blog</a>
                     </li>
                 </ul>
             </div>

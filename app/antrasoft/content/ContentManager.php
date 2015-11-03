@@ -93,7 +93,7 @@ class ContentManager {
         $content->content_type = Request::input('contenttype');
         if(Request::input('publisheddate')=="")
         {
-            $content->published_date = \Carbon\Carbon::now();
+            $content->published_date = \Carbon\Carbon::now()->format('Y-m-d');
             $content->stop_published = Request::input('endpublisheddate');
         }else{
             $content->published_date = Request::input('publisheddate');
@@ -179,7 +179,7 @@ class ContentManager {
         }
     }
 
-    private function getTags($tags)
+    public function getTags($tags)
     {
         $tags = explode(',',$tags);
         $tg = "";
@@ -193,7 +193,7 @@ class ContentManager {
         return $tg;
     }
 
-    private function getComments($contentid)
+    public function getComments($contentid)
     {
         $getComments = Comment::where('postid',$contentid)->get();
         return $getComments;

@@ -240,7 +240,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h2 style="margin-top: 0px"><i class="fa fa-facebook" style="color: #0000C2"></i> Like us  on  Facebook</h2>
+                <h2 style="margin-top: 0px"> <i class="fa fa-facebook" style="color: #0000C2"></i> Like us  on  Facebook</h2>
                 <hr>
                 <div class="fb-page" data-href="https://www.facebook.com/Serviceride-Limited-147647652050748/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
             </div>
@@ -254,7 +254,7 @@
                         <div class="testimonial-image">
                             <img src="{{URL::to('/')}}{{$tm->featured_image}}" alt="{{$tm->title}}" title="" class="img-circle">
                         </div>
-                        <div class="testimonial-body">
+                        <div class="testimonial-body" style="padding-top: 0px;">
                             <p>{!!$tm->main_text!!}</p>
                             <div class="testimonial-info-2">{{$tm->title}}</div>
                         </div>
