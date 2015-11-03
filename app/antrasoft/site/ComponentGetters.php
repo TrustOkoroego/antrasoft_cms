@@ -28,4 +28,10 @@ class ComponentGetters {
         $cm = new ContentManager();
         return $cm->getTestimony(); // return user testimonies
     }
+
+    public function getEvents()
+    {
+        $cm = new ContentManager();
+        return $cm->getEvenList('intro'); // return user testimonies
+    }
 } 

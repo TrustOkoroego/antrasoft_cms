@@ -21,6 +21,7 @@ class HomeController extends Controller{
     {
         $slide = $this->component->getSlide(4);
         $testimony = $this->component->getTestimony();
-        return view('site/home',compact('slide','testimony'));
+        $events = $this->component->getEvents();
+        return view('site/home',compact('slide','testimony','events'));
     }
 } 

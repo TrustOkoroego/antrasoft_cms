@@ -47,7 +47,7 @@
                                 <div class="control-group">
                                     <div class="controls" style="margin-left: -10px">
                                         <div class="col-md-11 xdisplay_inputx form-group has-feedback">
-                                            <input value="{{$cont['created_at']}}" name="publisheddate" class="form-control has-feedback-left" id="single_cal1" placeholder="Published date" aria-describedby="inputSuccess2Status" type="text">
+                                            <input value="{{$cont['published_date']}}" name="publisheddate" class="form-control has-feedback-left" id="single_cal1" placeholder="Published date" aria-describedby="inputSuccess2Status" type="text">
                                             <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
                                             <span id="inputSuccess2Status" class="sr-only">(success)</span>
                                         </div>
@@ -59,7 +59,7 @@
                                 <div class="control-group">
                                     <div class="controls" style="margin-left: -10px">
                                         <div class="col-md-11 xdisplay_inputx form-group has-feedback">
-                                            <input value="" name="endpublisheddate" class="form-control has-feedback-left" id="single_cal2" placeholder="0000-00-00" aria-describedby="inputSuccess2Status" type="text">
+                                            <input value="{{$cont['end_published_date']}}" name="endpublisheddate" class="form-control has-feedback-left" id="single_cal2" placeholder="0000-00-00" aria-describedby="inputSuccess2Status" type="text">
                                             <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
                                             <span id="inputSuccess2Status" class="sr-only">(success)</span>
                                         </div>

@@ -1,7 +1,25 @@
 @extends('site/master')
 
+@section('style')
+<style>
+    .eventHover:hover
+    {
+        background-color: #CCCCCC !important;
+        border: thin solid #888888;
+    }
+</style>
+@stop
+
 @section('banner')
 <div class="banner">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=493590497425601";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- slideshow start -->
     <!-- ================ -->
@@ -177,28 +195,33 @@
                     <!-- page-title end -->
                     <div class="row">
                         <div class="col-md-6">
-                            <h3>Project Description</h3>
+                            <h3>Our Resources</h3>
                             <div class="separator-2"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-                            <p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+                            <p>We also provide free materials for students to read. Bleow are some of our resources</p>
+                            <div class="col-md-12" style="padding-left: 0px">
+                                <div class="col-md-6" style="padding-left: 0px"><img width="100%" src="{{URL::to('/')}}/images/book1.png" /></div>
+                                <div class="col-md-6" style="padding-right: 0px"><img width="100%" src="{{URL::to('/')}}/images/book2.png" /></div>
+                            </div>
                         </div>
                         <div class="col-md-6" style="background-color: #FFFFFF; height: 500px">
                             <h3>Recent Programmes</h3>
                             <div class="separator-2"></div>
 
-                            @for($i=1;$i<4;$i++)
-                            <div class="testimonial clearfix" style="margin-top: 3px;margin-bottom: 3px">
+                            @foreach($events as $ev)
+                            <a href="" class="eventHover">
+                            <div class="testimonial clearfix eventHover" style="margin-top: 3px;margin-bottom: 3px">
                                 <div class="col-md-2">
-                                    <img src="{{URL::to('/')}}/site/images/testimonial-1.jpg" alt="Jane Doe" title="file" class="img-container">
+                                    <img src="{{URL::to('/')}}{{$ev->featured_image}}" alt="" title="file" class="img-container">
                                 </div>
                                 <div class="col-md-10">
-                                    <h4 style="margin-bottom: 3px">Secrets of total self confidence </h4>
-                                    <p style="font-weight:bold;margin-bottom: 0px"> 20 January 2015 - 30 Febuary 2015</p>
+                                    <h4 style="margin-bottom: 3px;margin-top: 0px">{{$ev->title}} </h4>
+                                    <p style="font-weight:bold;margin-bottom: 0px"> {{$ev->published_date}} to {{$ev->stop_published}}</p>
                                     <p style="font-weight:bold;margin:0px;padding:0px"> @ 20 Calabar road</p>
                                  </div>
                             </div>
                             <hr style="margin: 15px">
-                            @endfor
+                            </a>
+                            @endforeach
                             <a href="#" class="btn btn-gray btn-sm">View all Programms</a>
                         </div>
                     </div>
@@ -217,13 +240,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-
+                <h2 style="margin-top: 0px"><i class="fa fa-facebook" style="color: #0000C2"></i> Like us  on  Facebook</h2>
+                <hr>
+                <div class="fb-page" data-href="https://www.facebook.com/Serviceride-Limited-147647652050748/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
             </div>
             <div class="col-md-8">
+                <h2 style="margin-top: 0px"><i class="fa fa-comment" style="color: #888888"></i> Testimonies</h2>
+                <hr>
                 <div class="owl-carousel content-slider-with-controls-bottom">
                     @foreach($testimony as $tm)
                     <div class="testimonial margin-clear clearfix">
-                        <h2 class="title">{{$tm->intro_text}}</h2>
+                        <h4 class="title">{{$tm->intro_text}}</h4>
                         <div class="testimonial-image">
                             <img src="{{URL::to('/')}}{{$tm->featured_image}}" alt="{{$tm->title}}" title="" class="img-circle">
                         </div>

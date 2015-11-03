@@ -72,7 +72,8 @@ class ContentManager {
                 "contenttype" => $c->content_type,
                 "tg" => $this->getTags($c->tags),
                 "link" => $c->created_at->format('Y/m').'/'.$c->id.'/'.str_replace(' ','-',$c->title),
-                "published_date" => $c->created_at->format('Y-m-d'),
+                "published_date" => $c->published_date,
+                "end_published_date" => $c->stop_published,
                 "comments"=> $this->getComments($c->id),
                 "weight"=>$c->weight,
                 "published" => $c->published,
@@ -114,13 +115,15 @@ class ContentManager {
         $content->featured_image = str_replace(URL::to('/'),"",Request::input('imageurl'));
         $content->main_text = Request::input('editor');
         $content->content_type = Request::input('contenttype');
+
         if(Request::input('publisheddate')=="")
         {
 
         }else{
             $content->published_date = Request::input('publisheddate');
+            $content->stop_published = Request::input('endpublisheddate');
         }
-        $content->status = 1;
+
         $content->userid = Request::input('contentpublisher');
         $content->save();
         return 1;
@@ -202,6 +205,19 @@ class ContentManager {
     {
         $testimony =  Content::where('content_type',4)->limit(8)->get();
         return $testimony;
+    }
+
+
+    // get events
+    public function getEvenList($type=null)   // eventtype is intro|full
+    {
+        if($type=='intro')
+        {
+            $event =  Content::where('content_type',3)->orderBy('weight','asc')->paginate(3);
+        }else{
+            $event =  Content::where('content_type',3)->paginate(10);
+        }
+        return $event;
     }
 
     // delete a content
