@@ -33,6 +33,9 @@
                             <label for="message">Title:</label>
                             <input type="text" class="form-control" name="description1" id="title" value="{!!$cont['title']!!}" />
                             <br>
+                            <label for="message">Link:</label>
+                            <input type="text" class="form-control" name="mainlink" id="title" value="{!!$cont['main_link']!!}" />
+                            <br>
                             Publisher:
                             <select class="form-control" name="contentpublisher">
 

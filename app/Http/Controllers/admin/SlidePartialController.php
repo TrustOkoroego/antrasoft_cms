@@ -31,6 +31,7 @@ trait SlidePartialController{
         $error = '';
         $desc1 = Request::input('description1');
         $desc2 = Request::input('description2');
+        $link = Request::input('link');
         $img_url = str_replace(URL::to('/'),"",Request::input('imageurl'));
         if($desc1=="")
         {
@@ -50,6 +51,7 @@ trait SlidePartialController{
         $image->image_url = $img_url;
         $image->image_description = str_replace('[b]','</br>',$desc1);
         $image->image_description2 = str_replace('[b]','</br>',$desc2);
+        $image->link = $link;
         $image->image_type = 1;
         $image->save();
 
@@ -72,6 +74,7 @@ trait SlidePartialController{
         $error = '';
         $desc1 = Request::input('description1');
         $desc2 = Request::input('description2');
+        $link = Request::input('link');
         $img_url = str_replace(URL::to('/'),"",Request::input('imageurl'));
 
         // check if the slide user wants to edit is existing
@@ -101,6 +104,7 @@ trait SlidePartialController{
             $image->image_url = $img_url;
             $image->image_description = str_replace('[b]','</br>',$desc1);
             $image->image_description2 = str_replace('[b]','</br>',$desc2);
+            $image->link = $link;
             $image->image_type = 1;
             $image->save();
         }

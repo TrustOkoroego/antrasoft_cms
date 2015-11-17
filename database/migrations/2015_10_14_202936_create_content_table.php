@@ -21,6 +21,7 @@ class CreateContentTable extends Migration
             $table->integer('content_type');
             $table->integer('userid');
             $table->string('tags');
+            $table->string('main_link');
             $table->integer('status');
             $table->string('published');
             $table->string('stop_published');

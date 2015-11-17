@@ -33,6 +33,9 @@
                                 <label for="message">Title:</label>
                                 <input type="text" class="form-control" name="description1" id="title"  />
                                 <br>
+                                <label for="message">Link:</label>
+                                <input type="text" class="form-control" name="mainlink" id="title" value="" />
+                                <br>
                                 Publisher:
                                 <select class="form-control" name="contentpublisher">
                                     @foreach($publishers as $p)

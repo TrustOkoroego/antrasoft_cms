@@ -29,9 +29,39 @@ class ComponentGetters {
         return $cm->getTestimony(); // return user testimonies
     }
 
-    public function getEvents()
+    public function getEvents($param=null)
     {
         $cm = new ContentManager();
-        return $cm->getEvenList('intro'); // return user testimonies
+        return $cm->getEvenList($param); // return user testimonies
     }
+
+    public function getEventDetail($id)
+    {
+        $cm = new ContentManager();
+        return $cm->getEventDetails($id); // return user testimonies
+    }
+
+    public function getAds()
+    {
+        $cm = new ContentManager();
+        return $cm->getAds();
+    }
+
+    public function getSearchResult($param)
+    {
+        $cm = new ContentManager();
+        return $cm->searchallcontent($param);
+    }
+
+    public function getProgrammes()
+    {
+        $cm = new ContentManager();
+        return $cm->getProgrammes();
+    }
+    public function getOneProgrammes($id)
+    {
+        $cm = new ContentManager();
+        return $cm->getOneProgramme($id);
+    }
+
 } 

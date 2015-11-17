@@ -71,6 +71,7 @@ class ContentManager {
                 "main_text" => $c->main_text,
                 "contenttype" => $c->content_type,
                 "tg" => $this->getTags($c->tags),
+                "main_link" => $c->main_link,
                 "link" => $c->created_at->format('Y/m').'/'.$c->id.'/'.str_replace(' ','-',$c->title),
                 "published_date" => $c->published_date,
                 "end_published_date" => $c->stop_published,
@@ -90,6 +91,7 @@ class ContentManager {
         $content->intro_text = Request::input('description2');
         $content->featured_image = str_replace(URL::to('/'),"",Request::input('imageurl'));
         $content->main_text = Request::input('editor');
+        $content->main_link = Request::input('mainlink');
         $content->content_type = Request::input('contenttype');
         if(Request::input('publisheddate')=="")
         {
@@ -114,6 +116,7 @@ class ContentManager {
         $content->intro_text = Request::input('description2');
         $content->featured_image = str_replace(URL::to('/'),"",Request::input('imageurl'));
         $content->main_text = Request::input('editor');
+        $content->main_link = Request::input('mainlink');
         $content->content_type = Request::input('contenttype');
 
         if(Request::input('publisheddate')=="")
@@ -203,7 +206,7 @@ class ContentManager {
 
     public function getTestimony()
     {
-        $testimony =  Content::where('content_type',4)->limit(8)->get();
+        $testimony =  Content::where('content_type',4)->where('published',1)->limit(8)->get();
         return $testimony;
     }
 
@@ -213,11 +216,31 @@ class ContentManager {
     {
         if($type=='intro')
         {
-            $event =  Content::where('content_type',3)->orderBy('weight','asc')->paginate(3);
+            $event =  Content::where('content_type',3)->where('published',1)->orderBy('weight','asc')->paginate(3);
         }else{
-            $event =  Content::where('content_type',3)->paginate(10);
+            $event =  Content::where('content_type',3)->where('published',1)->orderBy('published_date','asc')->paginate(10);
         }
         return $event;
+    }
+    public function getEventDetails($eventid)   // eventtype is intro|full
+    {
+
+       $event =  Content::where('id',$eventid)->where('content_type',3)->where('published',1)->first();
+       return $event;
+
+    }
+
+
+    public function getProgrammes()
+    {
+        $programmes =  Content::where('content_type',6)->where('published',1)->orderBy('weight','asc')->get();
+        return $programmes;
+    }
+
+    public function getOneProgramme($id)
+    {
+        $programmes =  Content::find($id);
+        return $programmes;
     }
 
     // delete a content
@@ -229,5 +252,55 @@ class ContentManager {
             $content->delete();
             return 1;
         }
+    }
+
+
+    public function getAds()
+    {
+        $content = Content::where('content_type',5)->where('published',1)->orderBy('weight','asc')->limit(4)->get();
+        return $content;
+    }
+
+
+    public function searchallcontent($param)
+    {
+        $res = Content::where(function($q){
+            $q->Where('content_type',1)
+                ->orWhere('content_type',2)
+                ->orWhere('content_type',3);
+        })->Where(function($t) use ($param){
+               $t->Where('main_text','like','%'.$param.'%')
+               ->orWhere('title','like','%'.$param.'%');
+            });
+        $resP = $res->paginate(4);
+
+        $result = array();
+        foreach($resP as $c)
+        {
+            $carray = array(
+                "id" => $c->id,
+                "title"=> $c->title,
+                "intro_text" => $c->intro_text,
+                "main_text" => $c->main_text,
+                "link" => $this->getSearchResultLink($c->id,$c->content_type,$c->title,$c->created_at),
+                "published_date" => $c->created_at->format('d/m/Y'),
+            );
+            array_push($result,$carray);
+        }
+        $resCount = $res->count();
+
+
+        return array('result'=>$resP,'result_main'=>$result,'resultCount'=>$resCount);
+    }
+
+    private function getSearchResultLink($id,$type,$title,$created_at)
+    {
+        // check the result type and return appropriate link
+        if($type==1 || $type==2)
+        {
+            return URL::to('/').'/blog/post/'.$id.'/'.$created_at->format('Y/m').'/'.str_replace(' ','-',$title);
+        }
+
+        return URL::to('/').'/eventdetail/'.$id;
     }
 }

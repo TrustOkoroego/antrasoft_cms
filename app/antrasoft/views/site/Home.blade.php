@@ -73,7 +73,7 @@
                              data-speed="600"
                              data-start="0"
                              data-end="10000"
-                             data-endspeed="600"><a href="page-services.html" class="btn btn-default btn-lg">Tell Me More <i class="fa fa-angle-double-right pl-10"></i></a>
+                             data-endspeed="600"><a href="{{$s->link}}" class="btn btn-default btn-lg">Tell Me More <i class="fa fa-angle-double-right pl-10"></i></a>
                         </div>
 
                     </li>
@@ -107,7 +107,7 @@
                                 <p>We specialize in management consultancy and training. With our team of professionals,
                                     we have greatly contributed to the manpower needs of many organizations in Nigeria.
                                     We have built efficient and dynamic management systems sustaining top organizations.</p>
-                                <a href="#" class="link"><span>Read More</span></a>
+
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
 
                                     <p>Do you desire to be a CHATERED ACCOUNTANT? We have a very professional
                                     team that can deliver proficiently to you on any accounting certification of your choice..</p>
-                                <a href="page-services.html" class="link"><span>Read More</span></a>
+
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                                     2.	We can train your staff to be more efficient and productive on inventory management.
                                     Feel free to call us for any inventory problem you may have or for more education.</p>
                                 </p>
-                                <a href="page-services.html" class="link"><span>Read More</span></a>
+
                             </div>
                         </div>
                     </div>
@@ -208,21 +208,21 @@
                             <div class="separator-2"></div>
 
                             @foreach($events as $ev)
-                            <a href="" class="eventHover">
+                            <a href="{{URL::to('/')}}/eventdetail/{{$ev->id}}" class="eventHover">
                             <div class="testimonial clearfix eventHover" style="margin-top: 3px;margin-bottom: 3px">
                                 <div class="col-md-2">
                                     <img src="{{URL::to('/')}}{{$ev->featured_image}}" alt="" title="file" class="img-container">
                                 </div>
                                 <div class="col-md-10">
                                     <h4 style="margin-bottom: 3px;margin-top: 0px">{{$ev->title}} </h4>
-                                    <p style="font-weight:bold;margin-bottom: 0px"> {{$ev->published_date}} to {{$ev->stop_published}}</p>
+                                    <p style="font-weight:bold;margin-bottom: 0px"> {{DateTime::createFromFormat('Y-m-d', $ev->published_date)->format('d, M Y')}} to {{DateTime::createFromFormat('Y-m-d', $ev->stop_published)->format('d, M Y')}}</p>
                                     <p style="font-weight:bold;margin:0px;padding:0px"> @ 20 Calabar road</p>
                                  </div>
                             </div>
                             <hr style="margin: 15px">
                             </a>
                             @endforeach
-                            <a href="#" class="btn btn-gray btn-sm">View all Programms</a>
+                            <a href="{{URL::to('/')}}/events" class="btn btn-gray btn-sm">View all Programms</a>
                         </div>
                     </div>
                 </div>
@@ -269,6 +269,70 @@
 </div>
 <!-- section end -->
 
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img class="roundedimage" width="200px" src="{{URL::to('/')}}/site/images/logo_dark_header_blue.png" />
+                <div class="site-slogan" style="text-align: left;margin-top: 10px">
+                    Your career's next level
+                </div><br>
+                <p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+                <p>
+                    <input type="text" class="form-control" name="subscribe" id="subscribe" placeholder="Your Email...">
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="subscribe_button" class="btn btn-sm btn-default">Subscribe</button>
+                <button type="button" class="btn btn-sm btn-dark" id="closemodal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@stop
+
+@section('scripts')
+<script>
+
+    setTimeout( function(){
+        if(sessionStorage.getItem('sessionKey')=='active')
+        {
+
+        }else{
+            $('#myModal').delay(1000).modal('show');
+        }
+
+    },5000); //3 seconds
+    $('#closemodal').click(function(){
+        sessionStorage.setItem('sessionKey', 'active');
+        $('#myModal').modal('hide');
+    })
+
+    $('#subscribe_button').click(function(){
+       var em = $('#subscribe').val();
+        var tkn = $('#tkn').val();
+        if(em=="")
+        {
+            alert("please fill in the email address");
+        }else{
+            $.post('{{URL::to('/')}}/subcribe',{em:em,_token:tkn},function(e){
+               if(e==1)
+               {
+                   sessionStorage.setItem('sessionKey', 'active');
+                   $('#myModal').modal('hide');
+               }
+                else{
+                   alert(e);
+               }
+            })
+        }
+
+    });
+</script>
 
 
 @stop

@@ -64,14 +64,17 @@
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Privileges <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            @foreach($privileges as $p)
-                            <div class="checkbox">
-                                <label class="">
-                                    <div style="position: relative;" class="icheckbox_flat-green"><input name="{{$p->pr_name}}" style="position: absolute; opacity: 0;" class="flat"  type="checkbox" <?php if(in_array($p->pr_name,App\antrasoft\helper\AdminHelper::getPrivileges($user->privilege))){ echo 'checked="checked"';} ?>><ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper"></ins></div> {{$p->pr_name}} ( {{$p->pr_description}} )
-                                </label>
-                            </div>
-                            @endforeach
-
+                                @foreach($privileges as $p)
+                                <div class="checkbox">
+                                    <label class="">
+                                        <div style="position: relative;" class="icheckbox_flat-green"><input name="{{$p->pr_name}}" style="position: absolute; opacity: 0;" class="flat"  type="checkbox"
+                                                <?php
+                                                $pp = App\antrasoft\helper\AdminHelper::getPrivileges($user->privilege);
+                                                if(in_array($p->pr_name,$pp)){ echo
+                                            'checked="checked"';} ?>><ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper"></ins></div> {{$p->pr_name}} ( {{$p->pr_description}} )
+                                    </label>
+                                </div>
+                                @endforeach
                         </div>
                     </div>
 

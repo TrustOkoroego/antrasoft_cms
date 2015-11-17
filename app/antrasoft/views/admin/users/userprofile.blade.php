@@ -68,11 +68,14 @@
                         </label>
                         <div class="col-md-7 col-sm-7 col-xs-12">
                             <?php
-                            $helper = new App\antrasoft\helper\AdminHelper();
-                            foreach(App\antrasoft\helper\AdminHelper::getPrivileges($user->privilege) as $p)
+                            $prev = App\antrasoft\helper\AdminHelper::getPrivileges($user->privilege);
+                            if(count($prev)>1)
                             {
-                                if($p!=""){
-                                    echo '<span class="tag"><span>'.$p.'&nbsp;&nbsp;</span></span>' ;
+                                foreach($prev as $p)
+                                {
+                                    if($p!=""){
+                                        echo '<span class="tag"><span>'.$p.'&nbsp;&nbsp;</span></span>' ;
+                                    }
                                 }
                             }
                             ?>

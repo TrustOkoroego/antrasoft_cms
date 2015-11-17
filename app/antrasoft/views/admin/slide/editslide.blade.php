@@ -33,6 +33,9 @@
                             <label for="message">Description 2 :</label>
                             <textarea class="form-control" name="description2" >{{str_replace('</br>','[b]',$slide->image_description2)}}</textarea>
                             <br>
+                            <label for="message">Link:</label>
+                            <input type="text" class="form-control" name="link" value="{{$slide->link}}" />
+                            <br>
                             <button class="btn btn-success">Publish</button>
                             </p>
                         </form>

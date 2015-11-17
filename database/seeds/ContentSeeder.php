@@ -37,6 +37,16 @@ class ContentSeeder extends Seeder{
         $contentType->status = 1;
         $contentType->save();
 
+        $contentType = new ContentType();
+        $contentType->contenttype_name = "Ads";
+        $contentType->status = 1;
+        $contentType->save();
+
+        $contentType = new ContentType();
+        $contentType->contenttype_name = "Programmes";
+        $contentType->status = 1;
+        $contentType->save();
+
 
         // end of contenttype seeder
 

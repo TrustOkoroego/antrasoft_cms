@@ -17,7 +17,7 @@ use DateTime,URL;
 
 class BlogManager extends ContentManager {
     private $cmanager;
-    function __construct(ContentManager $cm)
+    function __construct(ContentManager $cm=null)
     {
         $this->cmanager = $cm;
     }
@@ -28,16 +28,18 @@ class BlogManager extends ContentManager {
         $eachcontent = array();
         foreach($content as $c)
         {
+            $lnk = '/blog/post/'.$c->id.'/'.$c->created_at->format('Y/m').'/'.str_replace(' ','-',$c->title);
             // for the content to a readable format
             $carray = array(
                 "id" => $c->id,
                 "title"=> $c->title,
                 "intro_text" => $c->intro_text!="" ? $this->truncate($c->intro_text):$this->truncate(strip_tags($c->main_text)),
-                "featured_image" => $this->getFearturedImage($c->featured_image),
+                "featured_image" => $this->getFearturedImage($c->featured_image,URL::to('/').$lnk),
                 "main_text" => $c->main_text,
+                "main_link" => $c->main_link,
                 "poster"=> $this->getPoster($c->userid),
                 "tg" => $this->getTags($c->tags),
-                "link" => $c->id.'/'.$c->created_at->format('Y/m').'/'.str_replace(' ','-',$c->title),
+                "link" => $lnk,
                 "published_date" => array(
                     "day"=> DateTime::createFromFormat('Y-m-d', $c->published_date)->format('d'),
                     "month"=> DateTime::createFromFormat('Y-m-d', $c->published_date)->format('M'),
@@ -65,15 +67,17 @@ class BlogManager extends ContentManager {
             return 'article has been moved or is unavailable';
         }
             // for the content to a readable format
+        $lnk = '/blog/post/'.$c->id.'/'.$c->created_at->format('Y/m').'/'.str_replace(' ','-',$c->title);
         $carray = array(
             "id" => $c->id,
             "title"=> $c->title,
             "intro_text" => $c->intro_text!="" ? $this->truncate($c->intro_text):$this->truncate(strip_tags($c->main_text)),
-            "featured_image" => $this->getFearturedImage($c->featured_image),
+            "featured_image" => $this->getFearturedImage($c->featured_image,"#"),
             "main_text" => $c->main_text,
+            "main_link" => $c->main_link,
             "poster"=> $this->getPoster($c->userid),
             "tg" => $this->getTags($c->tags),
-            "link" => $c->id.'/'.$c->created_at->format('Y/m').'/'.str_replace(' ','-',$c->title),
+            "link" => $lnk,
             "published_date" => array(
                 "day"=> DateTime::createFromFormat('Y-m-d', $c->published_date)->format('d'),
                 "month"=> DateTime::createFromFormat('Y-m-d', $c->published_date)->format('M'),
@@ -86,13 +90,27 @@ class BlogManager extends ContentManager {
             "created_at"=>$c->created_at
         );
 
-        return $carry;
+        return $carray;
 
+    }
+
+    public function getFeaturedPost()
+    {
+        $c = Content::where('content_type',1)->where('published',1)->orderBy('weight','asc')->first();
+        $lnk = '/blog/post/'.$c->id.'/'.$c->created_at->format('Y/m').'/'.str_replace(' ','-',$c->title);
+        $carray = array(
+            "title"=> $c->title,
+            "intro_text" => $c->intro_text!="" ? $this->truncate($c->intro_text):$this->truncate(strip_tags($c->main_text)),
+            "featured_image" => $this->getFearturedImage($c->featured_image,"#"),
+            "link" => $lnk,
+        );
+
+        return $carray;
     }
 
 
 
-    private function truncate($string,$length=100,$append="&hellip;") {
+    private function truncate($string,$length=200,$append="&hellip;") {
         $string = trim($string);
 
         if(strlen($string) > $length) {
@@ -109,13 +127,13 @@ class BlogManager extends ContentManager {
         return $u->firstname.' '.$u->lastname;
     }
 
-    private function getFearturedImage($image)
+    private function getFearturedImage($image,$link)
     {
         if($image=="")
         {
             return "";
         }else{
-            return '<img style="width:100%" src="'.URL::to('/').$image.'" />';
+            return '<a href="'.$link.'" ><img style="width:100%" src="'.URL::to('/').$image.'" /></a>';
         }
     }
 

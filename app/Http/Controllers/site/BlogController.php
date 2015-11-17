@@ -23,13 +23,19 @@ class BlogController extends Controller {
     public function getIndex()
     {
         $getBlog = $this->bm->getBlogs();
+        $fpost = $this->bm->getFeaturedPost();
         $blogs = $getBlog[1];
         $pagination = $getBlog[0];
-        return view('site/Blog',compact('blogs','pagination'));
+        $ads = $this->bm->getAds();
+        return view('site/Blog',compact('blogs','pagination','fpost','ads'));
     }
 
     public function getPost($id)
     {
-        dd($this->bm->getSingleBlog($id));
+        $post = $this->bm->getSingleBlog($id);
+        $fpost = $this->bm->getFeaturedPost();
+        $ads = $this->bm->getAds();
+        return view('site/mainblog',compact('post','fpost','ads'));
     }
+
 } 
