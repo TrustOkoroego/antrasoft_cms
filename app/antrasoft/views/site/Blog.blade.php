@@ -76,6 +76,9 @@
 <aside class="col-md-3 col-md-offset-1">
     <div class="sidebar">
         <div class="block clearfix">
+            @include('site/inc/search')
+        </div>
+        <div class="block clearfix">
             <h3 class="title">Featured Post</h3>
             <div class="separator"></div>
             <div class="image-box">
@@ -88,14 +91,6 @@
         </div>
         <div class="block clearfix">
                 @include('site/inc/ads',array($ads))
-        </div>
-        <div class="block clearfix">
-            <form role="search">
-                <div class="form-group has-feedback">
-                    <input class="form-control" placeholder="Search" type="text">
-                    <i class="fa fa-search form-control-feedback"></i>
-                </div>
-            </form>
         </div>
     </div>
 </aside>

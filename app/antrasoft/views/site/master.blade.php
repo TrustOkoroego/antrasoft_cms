@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Home | Service Ride</title>
+    <title>@yield('title')</title>
     <meta name="description" content="service ride">
     <meta name="author" content="trust okoroego" email="trustokoroego@outlook.com">
 
@@ -120,7 +120,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="btn-group dropdown">
+                       <!-- <div class="btn-group dropdown">
                             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</button>
                             <ul class="dropdown-menu dropdown-menu-right dropdown-animation">
                                 <li>
@@ -152,7 +152,7 @@
                                     </form>
                                 </li>
                             </ul>
-                        </div>
+                        </div>-->
 
                     </div>
                     <!--  header top dropdowns end -->

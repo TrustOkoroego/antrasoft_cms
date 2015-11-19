@@ -69,7 +69,7 @@ class HomeController extends Controller{
         return view('site/Events',compact('ads','events'));
     }
 
-    public function getEventdetail($id)
+    public function getEventdetail($id,$title=null)
     {
         $ads = $this->component->getAds();
         $ev = $this->component->getEventDetail($id);

@@ -110,6 +110,9 @@
 <aside class="col-md-3 col-md-offset-1">
     <div class="sidebar">
         <div class="block clearfix">
+            @include('site/inc/search')
+        </div>
+        <div class="block clearfix">
             <h3 class="title">Featured Post</h3>
             <div class="separator"></div>
             <div class="image-box">

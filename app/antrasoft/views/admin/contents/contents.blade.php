@@ -40,6 +40,7 @@
                         <th class="col-sm-1"> Weight </th>
                         <th class="col-sm-1"> Published </th>
                         <th>Published Date</th>
+                        <th>End Published Date</th>
                         <th>Date Created </th>
                         <th>
 
@@ -88,6 +89,9 @@
                         </td>
                         </td><td class="">
                             {{$con['published_date']}}
+                        </td>
+                        </td><td class="">
+                            {{$con['end_published_date']}}
                         </td>
                         <td class="">
                             {{$con['created_at']->format('d/m/Y')}}

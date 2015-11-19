@@ -46,7 +46,8 @@ class ContentManager {
             "main_text" => $c->main_text,
             "tg" => $this->getTags($c->tags),
             "link" => $c->created_at->format('Y/m').'/'.$c->id.'/'.str_replace(' ','-',$c->title),
-            "published_date" => $c->created_at->format('d/m/Y'),
+            "published_date" => $c->published_date,
+            "end_published_date" => $c->stop_published,
             "comments"=> $this->getComments($c->id),
             "weight"=>$c->weight,
             "published" => $c->published,
@@ -96,9 +97,10 @@ class ContentManager {
         if(Request::input('publisheddate')=="")
         {
             $content->published_date = \Carbon\Carbon::now()->format('Y-m-d');
-            $content->stop_published = Request::input('endpublisheddate');
+            $content->stop_published = \Carbon\Carbon::now()->format('Y-m-d');
         }else{
             $content->published_date = Request::input('publisheddate');
+            $content->stop_published = Request::input('endpublisheddate');
         }
         $content->status = 1;
         $content->userid = Request::input('contentpublisher');
@@ -218,7 +220,7 @@ class ContentManager {
         {
             $event =  Content::where('content_type',3)->where('published',1)->orderBy('weight','asc')->paginate(3);
         }else{
-            $event =  Content::where('content_type',3)->where('published',1)->orderBy('published_date','asc')->paginate(10);
+            $event =  Content::where('content_type',3)->where('published',1)->orderBy('published_date','asc')->paginate(6);
         }
         return $event;
     }
@@ -301,6 +303,6 @@ class ContentManager {
             return URL::to('/').'/blog/post/'.$id.'/'.$created_at->format('Y/m').'/'.str_replace(' ','-',$title);
         }
 
-        return URL::to('/').'/eventdetail/'.$id;
+        return URL::to('/').'/eventdetail/'.$id.'/'.str_replace(' ','-',$title);
     }
 }

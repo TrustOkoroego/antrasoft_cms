@@ -1,5 +1,10 @@
 @extends('site.master')
 
+
+@section('title')
+{{$ev->title}}
+@stop
+
 @section('content')
 <div style="margin-top: 0px;" class="page-intro">
     <div class="container">
@@ -7,7 +12,8 @@
             <div class="col-md-12">
                 <ol class="breadcrumb">
                     <li><i class="fa fa-home pr-10"></i><a href="{{URL::to('/')}}">Home</a></li>
-                    <li class="active"><a href="#">events</a> </li>
+                    <li ><a href="{{URL::to('/')}}/events">events</a> </li>
+                    <li class="active">{{$ev->title}}</li>
                 </ol>
             </div>
         </div>
@@ -48,7 +54,7 @@
                             </div>
                             <p style="text-align: center;padding: 10px;margin: 0px">TO</p>
                             <div class="post-info">
-                                <span class="day">{{DateTime::createFromFormat('Y-m-d', $ev->published_date)->format('d')}}</span>
+                                <span class="day">{{DateTime::createFromFormat('Y-m-d', $ev->stop_published)->format('d')}}</span>
                                 <span class="month">{{DateTime::createFromFormat('Y-m-d', $ev->stop_published)->format('M')}} {{DateTime::createFromFormat('Y-m-d', $ev->stop_published)->format('Y')}}</span>
                             </div>
                             <!--<div class="affix" id="affix">
@@ -73,13 +79,14 @@
             <aside class="col-md-3 col-md-offset-1">
                 <div class="sidebar">
                     <div class="block clearfix">
+                        @include('site/inc/search')
+                    </div>
+                    <div class="block clearfix">
                         <div class="block clearfix">
                             @include('site/inc/ads',array($ads))
                         </div>
                     </div>
-                    <div class="block clearfix">
-                        @include('site/inc/search')
-                    </div>
+
                 </div>
             </aside>
             <!-- sidebar end -->
