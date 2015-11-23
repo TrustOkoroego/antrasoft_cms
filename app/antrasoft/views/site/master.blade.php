@@ -78,10 +78,10 @@
                 <!-- ================ -->
                 <div class="header-top-first clearfix">
                     <ul class="social-links clearfix hidden-xs">
-                        <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                        <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>
-                        <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <!--<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>-->
+                        <!--<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a></li>-->
+                        <li class="facebook"><a target="_blank" href="https://www.facebook.com/Serviceride-Limited-147647652050748"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                     <div class="social-links hidden-lg hidden-md hidden-sm">
                         <div class="btn-group dropdown">
@@ -437,6 +437,7 @@
 <!-- Count To javascript -->
 <script type="text/javascript" src="{{URL::to('/')}}/site/plugins/jquery.countTo.js"></script>
 
+
 <!-- Parallax javascript -->
 <script src="{{URL::to('/')}}/site/plugins/jquery.parallax-1.1.3.js"></script>
 
@@ -446,6 +447,7 @@
 <!-- SmoothScroll javascript -->
 <script type="text/javascript" src="{{URL::to('/')}}/site/plugins/jquery.browser.js"></script>
 <script type="text/javascript" src="{{URL::to('/')}}/site/plugins/SmoothScroll.js"></script>
+<script type="text/javascript" src="{{URL::to('/')}}/site/plugins/jquery.sharrre.js"></script>
 
 <!-- Initialization of Plugins -->
 <script type="text/javascript" src="{{URL::to('/')}}/site/js/template.js"></script>

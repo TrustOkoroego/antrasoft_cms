@@ -1,5 +1,9 @@
 @extends('site.master')
 
+@section('title')
+{{$post['title']}}
+@stop
+
 @section('content')
 <div style="margin-top: 0px;" class="page-intro">
     <div class="container">
@@ -8,7 +12,7 @@
                 <ol class="breadcrumb">
                     <li><i class="fa fa-home pr-10"></i><a href="{{URL::to('/')}}">Home</a></li>
                     <li><a href="{{URL::to('/')}}/blog">Blog</a></li>
-                    <li class="active"><a href="{{URL::to('/')}}{{$post['link']}}">{{$post['title']}}</a> </li>
+                    <li class="active">{{$post['title']}}</li>
                 </ol>
             </div>
         </div>
@@ -48,10 +52,7 @@
                     <span class="day">{{$post['published_date']['day']}}</span>
                     <span class="month">{{$post['published_date']['month']}} {{$post['published_date']['year']}}</span>
                 </div>
-                <div class="affix" id="affix">
-                    <span class="share">Share This</span>
-                    <div class="sharrre" id="share"></div>
-                </div>
+                <div class="affix" id="affix"><span class="share">Share This</span><div class="sharrre" id="share"><ul class="social-links clearfix"><li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li><li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li><li class="googleplus"><a href="#"><i class="fa fa-google-plus"></i></a></li></ul></div></div>
             </div>
             <div class="blogpost-content">
                 <header>
@@ -62,46 +63,37 @@
                 </div>
             </div>
         </div>
-        <footer class="clearfix">
-            <ul class="links pull-left">
-                <li><i class="fa fa-comment-o pr-5"></i> <a href="#">{{$post['commentcount']}} comments</a> |</li>
-                <li><i class="fa fa-tags pr-5"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a> </li>
-            </ul>
-        </footer>
+        <hr>
     </article>
     <!-- blogpost end -->
 
     <!-- comments start -->
     <div class="comments">
-        <!-- comment start -->
-        <div class="comment clearfix">
-            <div class="comment-avatar">
-                <img src="images/avatar.jpg" alt="avatar">
-            </div>
-            <div class="comment-content">
-                <h3>Comment title</h3>
-                <div class="comment-meta">By <a href="#">admin</a> | Today, 12:31</div>
-                <div class="comment-body clearfix">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                </div>
-            </div>
-            <!-- comment end -->
-        </div>
-    </div>
-    <!-- comments end -->
+        <div id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+             */
 
-    <!-- comments form start -->
-    <div class="comments-form">
-        <h2 class="title">Add comment</h2>
-        <form role="form" id="comment-form">
-            <div class="form-group has-feedback">
-                <textarea class="form-control" rows="8" id="message4" placeholder="" name="message4" required=""></textarea>
-                <i class="fa fa-envelope-o form-control-feedback"></i>
-            </div>
-            <input value="Submit" class="btn btn-default" type="submit">
-        </form>
+             var disqus_config = function () {
+             this.page.url = '{{URL::to('/')}}{{$post['link']}}'; // Replace PAGE_URL with your page's canonical URL variable
+             this.page.identifier = {{$post['id']}};  // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+             };
+
+            (function() {  // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+
+                s.src = '//serviceride.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
     </div>
-    <!-- comments form end -->
 
 </div>
 <!-- main end -->
@@ -117,7 +109,7 @@
             <div class="separator"></div>
             <div class="image-box">
                 <div class="overlay-container">
-                    <img src="images/blog-sidebar.jpg" alt="">
+
                     <div class="overlay">
                         <div class="overlay-links">
                             <a href="blog-post.html"><i class="fa fa-link"></i></a>
@@ -147,4 +139,5 @@
 </div>
 </div>
 </section>
+<script id="dsq-count-scr" src="//serviceridetest.disqus.com/count.js" async></script>
 @stop

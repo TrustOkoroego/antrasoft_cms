@@ -26,7 +26,39 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="42" selection-start="1448" selection-end="1448" vertical-scroll-proportion="-11.307693" vertical-offset="454" max-vertical-offset="2329">
+            <state line="54" column="42" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2499">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Master.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="33" selection-start="4936" selection-end="4936" vertical-scroll-proportion="-14.192307" vertical-offset="1212" max-vertical-offset="8296">
+              <folding>
+                <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="10" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-13.307693" vertical-offset="1099" max-vertical-offset="5831">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="14" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-4.5384617" vertical-offset="1225" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
@@ -35,29 +67,29 @@
       <file leaf-file-name="BlogManager.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/site/BlogManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="717" selection-end="717" vertical-scroll-proportion="-5.3076925" vertical-offset="134" max-vertical-offset="2278">
+            <state line="27" column="31" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Events.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="2394" selection-end="2394" vertical-scroll-proportion="-6.9615383" vertical-offset="907" max-vertical-offset="1479">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mainblog.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Mainblog.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Mainblog.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="14" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.49811321" vertical-offset="1657" max-vertical-offset="2635">
+            <state line="80" column="69" selection-start="2639" selection-end="2639" vertical-scroll-proportion="-1.3076923" vertical-offset="1326" max-vertical-offset="2516">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contactus.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="44" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.28679246" vertical-offset="1174" max-vertical-offset="3009">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,16 +97,7 @@
       <file leaf-file-name="Program.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="1497" selection-end="1604" vertical-scroll-proportion="-9.961538" vertical-offset="642" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="61" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-0.0" vertical-offset="986" max-vertical-offset="2465">
+            <state line="53" column="26" selection-start="1497" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -83,7 +106,7 @@
       <file leaf-file-name="Search.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Search.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="-19.423077" vertical-offset="532" max-vertical-offset="1479">
+            <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
@@ -92,7 +115,7 @@
       <file leaf-file-name="Eventdetails.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="-10.269231" vertical-offset="1127" max-vertical-offset="1734">
+            <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
@@ -125,7 +148,6 @@
         <option value="$PROJECT_DIR$/app/antrasoft/models/Message.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_05_182823_create_subscriber_table.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/models/Subscriber.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/admin/contents/newcontent.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/inc/ads.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/events.blade.php" />
@@ -150,7 +172,6 @@
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/admin/contents/contents.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ContentPartialController.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php" />
@@ -158,7 +179,9 @@
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Search.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/content/ContentManager.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Mainblog.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php" />
       </list>
     </option>
   </component>
@@ -195,7 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,6 +464,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,15 +535,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14381272" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4512987" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23489426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22960725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -655,11 +678,6 @@
         <state line="40" column="43" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-8.846154" vertical-offset="280" max-vertical-offset="2346" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="6183" selection-end="6183" vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="5831" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Programmes.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="66" selection-start="389" selection-end="389" vertical-scroll-proportion="-4.3461537" vertical-offset="40" max-vertical-offset="1717" />
@@ -692,16 +710,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Accountcreated.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="66" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="34" column="66" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/site/ProcessManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2023">
-          <folding />
-        </state>
+        <state line="10" column="32" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2023" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/userprofile.blade.php">
@@ -721,14 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="50" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="14" selection-start="6172" selection-end="6172" vertical-scroll-proportion="-51.423077" vertical-offset="788" max-vertical-offset="2958" />
+        <state line="77" column="50" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/site/images/dr_ebri.jpg">
@@ -738,69 +745,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="64" selection-start="5415" selection-end="5415" vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="2006">
-          <folding />
-        </state>
+        <state line="92" column="64" selection-start="5415" selection-end="5415" vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="2006" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/admin/adminRepositroy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="478" selection-end="478" vertical-scroll-proportion="0.19337016" vertical-offset="235" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="26" column="39" selection-start="478" selection-end="478" vertical-scroll-proportion="0.19337016" vertical-offset="235" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/contents/contents.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="54" selection-start="4743" selection-end="4743" vertical-scroll-proportion="-53.192307" vertical-offset="198" max-vertical-offset="2363">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="0" selection-start="8893" selection-end="8893" vertical-scroll-proportion="0.33333334" vertical-offset="1719" max-vertical-offset="7514">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="e#6335#8892#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="93" column="54" selection-start="4743" selection-end="4743" vertical-scroll-proportion="-53.192307" vertical-offset="198" max-vertical-offset="2363" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/site/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="459" selection-end="459" vertical-scroll-proportion="-7.5" vertical-offset="94" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="24" column="32" selection-start="459" selection-end="459" vertical-scroll-proportion="-7.5" vertical-offset="94" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ContentPartialController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="93" selection-start="624" selection-end="624" vertical-scroll-proportion="0.31675875" vertical-offset="117" max-vertical-offset="2567">
-          <folding />
-        </state>
+        <state line="28" column="93" selection-start="624" selection-end="624" vertical-scroll-proportion="0.31675875" vertical-offset="117" max-vertical-offset="2567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2394" selection-end="2394" vertical-scroll-proportion="-6.9615383" vertical-offset="907" max-vertical-offset="1479">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="14" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.21731123" vertical-offset="1225" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/site/BlogManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="717" selection-end="717" vertical-scroll-proportion="-5.3076925" vertical-offset="134" max-vertical-offset="2278">
+        <state line="64" column="0" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.0" vertical-offset="907" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>
@@ -814,50 +784,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="-10.269231" vertical-offset="1127" max-vertical-offset="1734">
+        <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Search.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="-19.423077" vertical-offset="532" max-vertical-offset="1479">
+        <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/content/ContentManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="70" selection-start="9019" selection-end="9019" vertical-scroll-proportion="0.71823204" vertical-offset="4625" max-vertical-offset="5168">
-          <folding />
-        </state>
+        <state line="305" column="70" selection-start="9019" selection-end="9019" vertical-scroll-proportion="0.71823204" vertical-offset="4625" max-vertical-offset="5168" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/site/ComponentGetters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.427256" vertical-offset="550" max-vertical-offset="1122">
-          <folding />
-        </state>
+        <state line="52" column="28" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.427256" vertical-offset="550" max-vertical-offset="1122" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="42" selection-start="1448" selection-end="1448" vertical-scroll-proportion="-11.307693" vertical-offset="454" max-vertical-offset="2329">
+        <state line="54" column="42" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1497" selection-end="1604" vertical-scroll-proportion="-9.961538" vertical-offset="642" max-vertical-offset="1377">
+        <state line="53" column="26" selection-start="1497" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/site/BlogManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="33" selection-start="4936" selection-end="4936" vertical-scroll-proportion="-14.192307" vertical-offset="1212" max-vertical-offset="8296">
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="10" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-13.307693" vertical-offset="1099" max-vertical-offset="5831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="14" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-4.5384617" vertical-offset="1225" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Mainblog.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="14" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.49811321" vertical-offset="1657" max-vertical-offset="2635">
+        <state line="80" column="69" selection-start="2639" selection-end="2639" vertical-scroll-proportion="-1.3076923" vertical-offset="1326" max-vertical-offset="2516">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="44" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.28679246" vertical-offset="1174" max-vertical-offset="3009">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

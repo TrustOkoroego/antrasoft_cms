@@ -91,7 +91,10 @@
                     </form>
                     <div class="col-md-6">
                         <!-- google maps start -->
-                        <div id="map-canvas"><div style="overflow: hidden; width: 555px; height: 450px;"><img src="https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&amp;1i530331&amp;2i391412&amp;2e1&amp;3u12&amp;4m2&amp;1u555&amp;2u450&amp;5m5&amp;1e0&amp;5sen-US&amp;6sus&amp;10b1&amp;12b1&amp;token=79278" style="width: 555px; height: 450px;"></div></div>
+                        <div id="map-canvas">
+                            <div style="overflow: hidden; width: 555px; height: 450px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.5646294733324!2d8.343433314135577!3d5.011722340279132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMDAnNDIuMiJOIDjCsDIwJzQ0LjIiRQ!5e0!3m2!1sen!2suk!4v1448130849545" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div></div>
                         <!-- google maps end -->
                     </div>
                 </div>
