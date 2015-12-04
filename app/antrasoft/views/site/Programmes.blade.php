@@ -1,5 +1,9 @@
 @extends('site.master')
 
+@section('title')
+Serviceride Programmes
+@stop
+
 @section('content')
 <div style="margin-top: 0px;" class="page-intro">
     <div class="container">

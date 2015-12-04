@@ -11,9 +11,9 @@
         <li>
             <button  onclick="window.location = '{{URL::to('/')}}/admin/newuser'" class="btn btn-success"><i class="fa fa-plus"></i> Add New User </button>
         </li>
-        <li>
+        <!--<li>
             <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Search </button>
-        </li>
+        </li>-->
     </ul>
     <div class="clearfix"></div>
 </div>
@@ -36,7 +36,7 @@
 </tr>
 </thead>
 
-<tbody>
+<tbody><!--
 <tr class="odd pointer">
     <td class="col-sm-1">
         <input type="text" class="form-control" />
@@ -49,7 +49,7 @@
     <td class=""><input type="text" class="form-control" />
     <td class=""><input type="text" class="form-control" />
     <td class=""></td>
-</tr>
+</tr>-->
 @foreach($users as $u)
 <tr class="odd pointer">
     <td class="a-center ">
@@ -81,3 +81,6 @@
 <link href="{{$res_bknd}}/css/custom.css" rel="stylesheet">
 <link href="{{$res_bknd}}/css/icheck/flat/green.css" rel="stylesheet">
 @stop
+
+
+

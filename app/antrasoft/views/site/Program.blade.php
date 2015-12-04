@@ -1,5 +1,10 @@
 @extends('site.master')
 
+
+@section('title')
+Programme
+@stop
+
 @section('content')
 <div style="margin-top: 0px;" class="page-intro">
     <div class="container">

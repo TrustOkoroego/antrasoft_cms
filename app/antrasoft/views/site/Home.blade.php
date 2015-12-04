@@ -169,11 +169,11 @@
             <div class="call-to-action">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1 class="title text-center">Join Us today and start learning..</h1>
+                        <h1 class="title text-center">Contact us today..</h1>
                     </div>
                     <div class="col-md-4">
                         <div class="text-center">
-                            <a style="margin-top: -10px" href="#" class="btn btn-default btn-lg">Register</a>
+                            <a style="margin-top: -10px" href="{{URL::to('/')}}/contact" class="btn btn-default btn-lg">Drop a Message</a>
                         </div>
                     </div>
                 </div>
@@ -199,8 +199,8 @@
                             <div class="separator-2"></div>
                             <p>We also provide free materials for students to read. Bleow are some of our resources</p>
                             <div class="col-md-12" style="padding-left: 0px">
-                                <div class="col-md-6" style="padding-left: 0px"><img width="100%" src="{{URL::to('/')}}/images/book1.png" /></div>
-                                <div class="col-md-6" style="padding-right: 0px"><img width="100%" src="{{URL::to('/')}}/images/book2.png" /></div>
+                                <div class="col-md-6" style="padding-left: 0px"><a target="_blank" href="http://www.amazon.co.uk/CAREER-APPRECIATION-OPTIMUM-PERFORMANCE-Willie-ebook/dp/B00JEW1DVA/ref=asap_bc?ie=UTF8"><img width="100%" src="{{URL::to('/')}}/images/book1.png" /></a> </div>
+                                <div class="col-md-6" style="padding-right: 0px"><a target="_blank" href="http://www.amazon.co.uk/CAREER-BRIDGE-Difference-Between-Where-ebook/dp/B00D4LVAPG"> <img width="100%" src="{{URL::to('/')}}/images/book2.png" /></a></div>
                             </div>
                         </div>
                         <div class="col-md-6" style="background-color: #FFFFFF; height: 500px">

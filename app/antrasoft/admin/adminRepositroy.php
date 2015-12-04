@@ -83,9 +83,18 @@ class adminRepositroy {
         return $this->user->getUsers();
     }
 
+    public function getSubscribers()
+    {
+        return $this->user->getSubscribers();
+    }
+
     public function getOneUser($id)
     {
         return $this->user->getOneUser($id);
     }
 
+    public function resetPassword($email,$password)
+    {
+        return $this->user->changeUserPassword($email,$password);
+    }
 } 

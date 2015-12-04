@@ -1,9 +1,5 @@
 @extends('site.master')
 
-@section('title')
-Our Team
-@stop
-
 @section('content')
 <div style="margin-top: 0px;" class="page-intro">
     <div class="container">
@@ -27,21 +23,21 @@ Our Team
             <div class="separator-2"></div>
             <div class="main col-md-12" style="margin-bottom: 20px">
                 <div class="col-md-4">
-                <img src="{{URL::to('/')}}/site/images/dr_ebri.jpg" style="padding: 5px;border: thin solid #EEEEEE" />
+                    <img src="{{URL::to('/')}}/site/images/dr_ebri.jpg" style="padding: 5px;border: thin solid #EEEEEE" />
                 </div>
                 <div class="col-md-8">
                     <h2>Dr. EBRI E. WILLIE</h2>
                     <p>Quality Control, Training, Mentoring and Professional Service Management with
-                    seventeen (17) years working experience of which ten (10) years were in Public service, as a Tax Administrator in Federal Inland Revenue Service – FIRS, Three (3) years with a tax and management consulting firm, and six (6) years as the Logistics/Procurement Specialist/manager for a Multinational Organization (Lafarge Group) UNICEM.
+                        seventeen (17) years working experience of which ten (10) years were in Public service, as a Tax Administrator in Federal Inland Revenue Service – FIRS, Three (3) years with a tax and management consulting firm, and six (6) years as the Logistics/Procurement Specialist/manager for a Multinational Organization (Lafarge Group) UNICEM.
                     </p>
                     <p>
                     <ul>
-                    <li>Ph.D (Business Administration)</li>
-                    <li>Fellow, Institute of Professional Financial Managers FIPFM UK.</li>
-                    <li>Fellow, Certified Public Accountant – FCPA UK.</li>
-                    <li>Fellow, Institute of Financial Consultant FIFC Canada/USA.</li>
-                    <li>Member of the Chartered Institute of Taxation of Nigeria – ACTI.</li>
-                    <li>A Masters Degree in Management - MBA (Major in Finance).</li>
+                        <li>Ph.D (Business Administration)</li>
+                        <li>Fellow, Institute of Professional Financial Managers FIPFM UK.</li>
+                        <li>Fellow, Certified Public Accountant – FCPA UK.</li>
+                        <li>Fellow, Institute of Financial Consultant FIFC Canada/USA.</li>
+                        <li>Member of the Chartered Institute of Taxation of Nigeria – ACTI.</li>
+                        <li>A Masters Degree in Management - MBA (Major in Finance).</li>
                     </ul>
                     </p>
                 </div>

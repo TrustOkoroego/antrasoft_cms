@@ -1,4 +1,6 @@
+<?php use Illuminate\Support\Facades\Request as Request;
 
+?>
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
@@ -7,7 +9,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>@yield('title')</title>
+    <title>Seriveride: @yield('title')</title>
     <meta name="description" content="service ride">
     <meta name="author" content="trust okoroego" email="trustokoroego@outlook.com">
 
@@ -15,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <!--<link rel='shortcut icon' href="/images/favicon.ico" type='image/x-icon'/ >-->
 
     <!-- Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -221,10 +223,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
+                    <li class="{{ Request::is('/') ? 'active' : '' }}">
                         <a href="{{URL::to('/')}}" >HOME</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown {{ Request::is('program/*')||Request::is('programmes') ? 'active' : '' }}">
                         <a href="{{URL::to('/')}}/programmes" class="dropdown-toggle" data-toggle="dropdown">Programmes</a>
                         <ul class="dropdown-menu">
                             <li>
@@ -242,7 +244,7 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown {{ Request::is('aboutus')||Request::is('ourteam')||Request::is('businessdevelopement')? 'active' : '' }}">
                         <a href="{{URL::to('/')}}/aboutus" class="dropdown-toggle" data-toggle="dropdown">ABOUT US</a>
                         <ul class="dropdown-menu">
                             <li>
@@ -252,7 +254,7 @@
                                 <a href="{{URL::to('/')}}/ourteam" class="dropdown-toggle" data-toggle="dropdown"> Consulting Team </a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Business Developement Team </a>
+                                <a href="{{URL::to('/')}}/businessdevelopement" class="dropdown-toggle" data-toggle="dropdown"> Business Developement Team </a>
                             </li>
 
                         </ul>
@@ -261,14 +263,14 @@
 
                     <!-- mega-menu end -->
                     <!-- mega-menu start -->
-                    <li>
+                    <li class="{{ Request::is('events') ? 'active' : '' }}">
                         <a href="{{URL::to('/')}}/events" >Events</a>
                     </li>
                     <!-- mega-menu end -->
-                    <li>
+                    <li class="{{ Request::is('contact') ? 'active' : '' }}">
                         <a href="{{URL::to('/')}}/contact">Contact</a>
                     </li>
-                    <li>
+                    <li class="{{ Request::is('blog')||Request::is('blog/*') ? 'active' : '' }}">
                         <a href="{{URL::to('/')}}/blog">Blog</a>
                     </li>
                 </ul>

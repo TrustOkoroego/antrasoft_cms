@@ -11,6 +11,7 @@ use App\antrasoft\models\Message;
 use App\antrasoft\models\Subscriber;
 use App\antrasoft\models\User;
 use Request,Hash;
+use Mail;
 
 
 class ProcessManager {
@@ -37,6 +38,14 @@ class ProcessManager {
             $mes->email = $email;
             $mes->message = $message;
             $mes->save();
+
+            $data = array('msg'=>$message);
+            // send message
+            Mail::send('emails.messages', ['data' => $data], function ($m) use ($email,$username,$subject) {
+                $m->from($email, $username);
+
+                $m->to('willie.ebri@gmail.com', 'Willie Ebri')->subject($subject);
+            });
 
             return '<div class="alert alert-success" id="MessageSent">We have received your message, we will contact you very soon.</div>';
         }

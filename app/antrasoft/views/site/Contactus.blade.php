@@ -1,5 +1,9 @@
 @extends('site/master')
 
+@section('title')
+Contact Us
+@stop
+
 @section('style')
 <style>
     .eventHover:hover

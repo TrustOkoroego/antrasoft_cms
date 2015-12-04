@@ -23,52 +23,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="42" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2499">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Master.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Master.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="33" selection-start="4936" selection-end="4936" vertical-scroll-proportion="-14.192307" vertical-offset="1212" max-vertical-offset="8296">
+            <state line="11" column="46" selection-start="324" selection-end="324" vertical-scroll-proportion="0.7450199" vertical-offset="0" max-vertical-offset="8041">
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1449220468908" expanded="true" signature="10180:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="10271:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="10368:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="10483:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="10521:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="10628:11010" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11167:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11224:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11296:11340" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11499:11543" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11674:11759" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11707:11759" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11707:11748" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11965:12017" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="11965:12006" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="12220:12272" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="12220:12261" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="12477:12529" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="12904:12948" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="13074:13159" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="13107:13159" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="13303:13355" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="13506:13700" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="13968:14012" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="14185:14229" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="14380:14424" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="14994:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="15077:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="15109:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="15139:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="15178:16568" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="16685:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="16734:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="16830:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="16897:16953" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="17409:18712" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="18936:19106" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="18968:19106" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="18998:19106" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="19045:19062" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="19063:19106" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="19275:20143" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="19349:20143" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="19479:19945" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="20031:20143" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="20087:20143" placeholder="..." />
+                <marker date="1449220468908" expanded="true" signature="20741:20869" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="10" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-13.307693" vertical-offset="1099" max-vertical-offset="5831">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Blog.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="14" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-4.5384617" vertical-offset="1225" max-vertical-offset="1819">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogManager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/site/BlogManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2465">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -76,37 +88,16 @@
       <file leaf-file-name="Mainblog.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Mainblog.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="69" selection-start="2639" selection-end="2639" vertical-scroll-proportion="-1.3076923" vertical-offset="1326" max-vertical-offset="2516">
+            <state line="2" column="0" selection-start="25" selection-end="67" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="2516">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contactus.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Contactus.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="44" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.28679246" vertical-offset="1174" max-vertical-offset="3009">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="1497" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Search.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1479">
+            <state line="12" column="5" selection-start="202" selection-end="202" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
@@ -115,7 +106,52 @@
       <file leaf-file-name="Eventdetails.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1734">
+            <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="-53.615383" vertical-offset="0" max-vertical-offset="1734">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Events.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="50" selection-end="50" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ourteam.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="2074">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="26" selection-end="59" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Programmes.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Programmes.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="22" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1785">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
@@ -131,20 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/slide/slide.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/admin_template.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/account/UserRepository.php" />
-        <option value="$PROJECT_DIR$/public/res/backend/js/contents.js" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/BootstrapThreePresenter.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/contents/editcontent.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_14_202936_create_content_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_09_19_031544_creat_images_table.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/slide/editslide.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/slide/newslide.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/SlidePartialController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/site/Aboutus.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_11_05_142406_create_message_table.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/models/Message.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_11_05_182823_create_subscriber_table.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/models/Subscriber.php" />
@@ -156,32 +178,46 @@
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/eventdetails.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/inc/search.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/ContentSeeder.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/master.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/site/BlogManager.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/site/ComponentGetters.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Programmes.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Aboutus.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/site/BlogController.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Accountcreated.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Register.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/site/ProcessManager.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/userprofile.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/editprofile.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/admin/contents/contents.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ContentPartialController.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Search.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/content/ContentManager.php" />
-        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Mainblog.blade.php" />
+        <option value="$PROJECT_DIR$/public/.htaccessr" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/PasswordChnage.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/admin/adminRepositroy.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/account/UserRepository.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/users.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/subscribers.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/admin_template.blade.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/emails/messages.lade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/emails/messages.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/site/ProcessManager.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/businessdevelopment.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/editprofile.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/PasswordChange.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/admin/users/userprofile.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Programmes.blade.php" />
         <option value="$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php" />
+        <option value="$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php" />
       </list>
     </option>
   </component>
@@ -218,6 +254,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,226 +297,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft-cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="antrasoft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../safetyportal" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="Where" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\antrasoft-cms\public" />
       <recent name="C:\wamp\www\antrasoft-cms\public\images" />
       <recent name="C:\wamp\www\antrasoft-cms\public\res\backend" />
       <recent name="C:\wamp\www\antrasoft-cms\public\site" />
       <recent name="C:\wamp\www\antrasoft-cms\public\core" />
-      <recent name="C:\wamp\www\antrasoft-cms\public\images\gallery\imm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\antrasoft-cms\app\antrasoft\views\site" />
@@ -539,11 +377,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4512987" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45114008" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22960725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25226587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -578,91 +416,16 @@
           <url>file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php</url>
           <line>4</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/contents/editcontent.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="108" selection-start="2238" selection-end="2238" vertical-scroll-proportion="-8.423077" vertical-offset="393" max-vertical-offset="2567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_09_19_031544_creat_images_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="598" selection-end="598" vertical-scroll-proportion="-6.1153846" vertical-offset="181" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/slide/editslide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="53" selection-start="2062" selection-end="2062" vertical-scroll-proportion="-11.653846" vertical-offset="292" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/SlidePartialController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="47" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-9.846154" vertical-offset="322" max-vertical-offset="2635" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_05_142406_create_message_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="569" selection-end="569" vertical-scroll-proportion="0.51648355" vertical-offset="105" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/models/Message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/slide/newslide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="1373" selection-end="1435" vertical-scroll-proportion="-8.5" vertical-offset="255" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/models/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="201" selection-end="201" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/models/Subscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="206" selection-end="206" vertical-scroll-proportion="0.33626375" vertical-offset="0" max-vertical-offset="455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_05_182823_create_subscriber_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="541" selection-end="541" vertical-scroll-proportion="0.7098901" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/models/Content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="203" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/contents/newcontent.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="1425" selection-end="1425" vertical-scroll-proportion="-5.3846154" vertical-offset="319" max-vertical-offset="2567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/inc/ads.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="363" selection-end="363" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Command/WhereamiCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="589" selection-end="589" vertical-scroll-proportion="-1.3560439" vertical-offset="804" max-vertical-offset="1853" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="539" column="44" selection-start="15220" selection-end="15220" vertical-scroll-proportion="0.34065935" vertical-offset="8889" max-vertical-offset="16218" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="15" selection-start="4137" selection-end="4137" vertical-scroll-proportion="0.5093555" vertical-offset="3206" max-vertical-offset="3859" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/inc/search.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="7" selection-start="256" selection-end="256" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187" />
@@ -676,11 +439,6 @@
     <entry file="file://$PROJECT_DIR$/database/seeds/ContentSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="43" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-8.846154" vertical-offset="280" max-vertical-offset="2346" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Programmes.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="389" selection-end="389" vertical-scroll-proportion="-4.3461537" vertical-offset="40" max-vertical-offset="1717" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Console/Commands/Inspire.php">
@@ -698,59 +456,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Aboutus.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="0" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="1581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/newuser.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="895" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="1836" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Accountcreated.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="66" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="918" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/site/ProcessManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2023" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/userprofile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="45" selection-start="3330" selection-end="3330" vertical-scroll-proportion="0.4754717" vertical-offset="955" max-vertical-offset="1751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/account/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="263" selection-end="263" vertical-scroll-proportion="0.28176796" vertical-offset="0" max-vertical-offset="1615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/editprofile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="52" selection-start="4218" selection-end="4218" vertical-scroll-proportion="0.41132075" vertical-offset="938" max-vertical-offset="1836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="50" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1615" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/site/images/dr_ebri.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="64" selection-start="5415" selection-end="5415" vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="2006" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/admin/adminRepositroy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="478" selection-end="478" vertical-scroll-proportion="0.19337016" vertical-offset="235" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/contents/contents.blade.php">
@@ -768,32 +481,14 @@
         <state line="28" column="93" selection-start="624" selection-end="624" vertical-scroll-proportion="0.31675875" vertical-offset="117" max-vertical-offset="2567" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.0" vertical-offset="907" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="61" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1734">
-          <folding />
-        </state>
+        <state line="58" column="61" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Search.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1479">
-          <folding />
-        </state>
+        <state line="61" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1479" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/content/ContentManager.php">
@@ -806,20 +501,6 @@
         <state line="52" column="28" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.427256" vertical-offset="550" max-vertical-offset="1122" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="42" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2499">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1497" selection-end="1604" vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/site/BlogManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="31" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2465">
@@ -827,45 +508,353 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="33" selection-start="4936" selection-end="4936" vertical-scroll-proportion="-14.192307" vertical-offset="1212" max-vertical-offset="8296">
+        <state line="16" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.49186257" vertical-offset="0" max-vertical-offset="553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.12903225" vertical-offset="0" max-vertical-offset="1836">
           <folding>
-            <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#46#74#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="30" selection-start="740" selection-end="740" vertical-scroll-proportion="-10.307693" vertical-offset="123" max-vertical-offset="1207">
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="508" selection-end="508" vertical-scroll-proportion="-9.038462" vertical-offset="139" max-vertical-offset="2839">
+          <folding>
+            <element signature="e#46#74#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="3026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/account/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="4438" selection-end="4438" vertical-scroll-proportion="-9.192307" vertical-offset="1716" max-vertical-offset="2686">
+          <folding>
+            <element signature="e#131#167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/admin/adminRepositroy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="45" selection-start="2138" selection-end="2138" vertical-scroll-proportion="-11.769231" vertical-offset="1071" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="2498" selection-end="2498" vertical-scroll-proportion="-18.346153" vertical-offset="968" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/subscribers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="2268" selection-end="2268" vertical-scroll-proportion="-4.6153846" vertical-offset="900" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/admin_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="28" selection-start="4372" selection-end="4372" vertical-scroll-proportion="-4.076923" vertical-offset="1590" max-vertical-offset="4267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Aboutus.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="757" selection-end="757" vertical-scroll-proportion="22.576923" vertical-offset="995" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="4374" selection-end="4374" vertical-scroll-proportion="-14.269231" vertical-offset="1669" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="793" selection-end="793" vertical-scroll-proportion="-2.9423077" vertical-offset="459" max-vertical-offset="2057">
+          <folding>
+            <element signature="e#135#171#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/emails/messages.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="400" selection-end="400" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/site/ProcessManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="256" selection-end="256" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="2091">
+          <folding>
+            <element signature="e#127#160#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/businessdevelopment.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="5" selection-start="6354" selection-end="6354" vertical-scroll-proportion="-19.5" vertical-offset="1397" max-vertical-offset="2006">
+          <folding>
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1449216145273" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/site/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="31" selection-start="3189" selection-end="3189" vertical-scroll-proportion="-15.461538" vertical-offset="1417" max-vertical-offset="2414">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="10" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-13.307693" vertical-offset="1099" max-vertical-offset="5831">
+        <state line="168" column="40" selection-start="7955" selection-end="7955" vertical-scroll-proportion="-9.615385" vertical-offset="2606" max-vertical-offset="5831">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/contents/editcontent.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="14" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-4.5384617" vertical-offset="1225" max-vertical-offset="1819">
+        <state line="10" column="59" selection-start="457" selection-end="457" vertical-scroll-proportion="0.3219697" vertical-offset="0" max-vertical-offset="2567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/newuser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="112" selection-start="778" selection-end="778" vertical-scroll-proportion="-4.3846154" vertical-offset="175" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/editprofile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="423" selection-end="429" vertical-scroll-proportion="-6.923077" vertical-offset="7" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/PasswordChange.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="86" selection-start="489" selection-end="489" vertical-scroll-proportion="-6.6923075" vertical-offset="13" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/admin/users/userprofile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="24" selection-start="1758" selection-end="1758" vertical-scroll-proportion="-8.538462" vertical-offset="441" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Mainblog.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="69" selection-start="2639" selection-end="2639" vertical-scroll-proportion="-1.3076923" vertical-offset="1326" max-vertical-offset="2516">
+        <state line="2" column="0" selection-start="25" selection-end="67" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Eventdetails.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="26" selection-start="3364" selection-end="3364" vertical-scroll-proportion="-53.615383" vertical-offset="0" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Events.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="50" selection-end="50" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Ourteam.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Program.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="26" selection-end="59" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Programmes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Contactus.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="44" selection-start="3259" selection-end="3259" vertical-scroll-proportion="0.28679246" vertical-offset="1174" max-vertical-offset="3009">
+        <state line="12" column="5" selection-start="202" selection-end="202" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/antrasoft/views/site/Master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="324" selection-end="324" vertical-scroll-proportion="0.7450199" vertical-offset="0" max-vertical-offset="8041">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#nav#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#header#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1449220468908" expanded="true" signature="10180:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="10271:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="10368:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="10483:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="10521:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="10628:11010" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11167:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11224:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11296:11340" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11499:11543" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11674:11759" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11707:11759" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11707:11748" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11965:12017" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="11965:12006" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="12220:12272" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="12220:12261" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="12477:12529" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="12904:12948" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="13074:13159" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="13107:13159" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="13303:13355" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="13506:13700" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="13968:14012" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="14185:14229" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="14380:14424" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="14994:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="15077:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="15109:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="15139:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="15178:16568" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="16685:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="16734:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="16830:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="16897:16953" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="17409:18712" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="18936:19106" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="18968:19106" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="18998:19106" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="19045:19062" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="19063:19106" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="19275:20143" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="19349:20143" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="19479:19945" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="20031:20143" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="20087:20143" placeholder="..." />
+            <marker date="1449220468908" expanded="true" signature="20741:20869" placeholder="..." />
           </folding>
         </state>
       </provider>

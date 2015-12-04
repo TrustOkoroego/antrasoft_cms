@@ -1,5 +1,10 @@
 @extends('site.master')
 
+
+@section('title')
+Blog
+@stop
+
 @section('content')
 <div style="margin-top: 0px;" class="page-intro">
     <div class="container">
@@ -58,8 +63,6 @@
         </div>
         <footer class="clearfix">
             <ul class="links pull-left">
-                <li><i class="fa fa-comment-o pr-5"></i> <a href="#">{{$bg['commentcount']}} comments</a> |</li>
-                <li><i class="fa fa-tags pr-5"></i> <a href="#">tag 1</a>, <a href="#">tag 2</a>, <a href="#">long tag 3</a> </li>
             </ul>
             <a class="pull-right link" href="{{URL::to('/').$bg['link']}}"><span>Read more</span></a>
         </footer>

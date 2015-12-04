@@ -9,7 +9,7 @@
                 <h2><i class="fa fa-users"></i> Users Profile <small></small></h2>
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
-                        <button type="submit" class="btn btn-success"><i class="fa fa-plus"></i> Add New User </button>
+                        <button type="submit" onclick="window.location='{{URL::to('/')}}/admin/newuser'" class="btn btn-success"><i class="fa fa-plus"></i> Add New User </button>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
@@ -45,6 +45,7 @@
                 </ul>
 
                 <a href="{{URL::to('/')}}/admin/editprofile/{{$user->id}}" class="btn btn-success"><i class="fa fa-edit m-right-xs"></i>Edit Profile</a>
+                <a href="{{URL::to('/')}}/admin/passwordreset" class="btn btn-success"><i class="fa fa-edit m-right-xs"></i>Change Password</a>
                 <br>
             </div>
             <div class="col-md-9 col-sm-9 col-xs-12">

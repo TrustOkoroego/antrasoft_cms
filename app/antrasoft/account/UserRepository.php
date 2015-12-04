@@ -7,6 +7,7 @@
  */
 
 namespace App\antrasoft\account;
+use App\antrasoft\models\Subscriber;
 use App\antrasoft\models\User;
 use App\antrasoft\models\Privilege;
 use Hash,Response;
@@ -118,9 +119,30 @@ class UserRepository {
         return User::all();
     }
 
+    public function getSubscribers()
+    {
+        return Subscriber::all();
+    }
+
     public function getUsersBasedOnType($type)
     {
         return User::where('privilege','like','%'.$type.'%')->get();
+    }
+
+    public function changeUserPassword($email,$password)
+    {
+
+        $user = User::where('email',$email)->first();
+        if(count($user)>0)
+        {
+            $user->password = Hash::make($password);
+            $user->save();
+            return true;
+        }else{
+            return false;
+        }
+
+
     }
 
     public function getOneUser($id)

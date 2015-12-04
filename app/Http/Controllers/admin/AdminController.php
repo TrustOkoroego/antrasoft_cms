@@ -12,6 +12,7 @@ use App\antrasoft\admin\adminRepositroy;
 use Carbon\Carbon;
 use Carbon\CarbonInterval;
 use Request;
+use App\antrasoft\models\User;
 
 
 class AdminController extends Controller{
@@ -32,6 +33,8 @@ class AdminController extends Controller{
 
     public function getIndex()
     {
+
+
         return view('admin/index');
     }
 
@@ -39,6 +42,12 @@ class AdminController extends Controller{
     {
         $users = $this->adminRepo->getUsers();
         return view('admin/users/users',compact('users'));
+    }
+
+    public function getSubscribers()
+    {
+        $subscribers = $this->adminRepo->getSubscribers();
+        return view('admin/users/subscribers',compact('subscribers'));
     }
 
     public function getNewuser()
@@ -86,5 +95,27 @@ class AdminController extends Controller{
         return view('admin/users/editprofile',compact('message','privileges','usertypes','user'));
     }
 
+    public function getPasswordreset()
+    {
+        $message = "";
+        return view('admin/users/PasswordChange',compact('message'));
+    }
+
+    public function postPasswordreset()
+    {
+        $message = "Password Changed";
+        $email = e(Request::input('email'));
+        $password = e(Request::input('password'));
+        if($email=="" || $password=="")
+        {
+            $message = "Please fill in both fields";
+        }
+        $result = $this->adminRepo->resetPassword($email,$password);
+        if(!$result)
+        {
+            $message="User with Email does not exist";
+        }
+        return view('admin/users/PasswordChange',compact('message'));
+    }
 
 } 

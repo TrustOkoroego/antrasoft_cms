@@ -115,6 +115,11 @@ class HomeController extends Controller{
         return view('site/Aboutus');
     }
 
+    public function getBusinessdevelopement()
+    {
+        return view('site/businessdevelopment');
+    }
+
 
     public function getOurteam()
     {
